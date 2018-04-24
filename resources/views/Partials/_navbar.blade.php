@@ -1,29 +1,35 @@
-<div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="row bg-dark">  
-      <div class="bg-dark p-4 span-1">
-        <a href="/dashboard" style="text-decoration: none"><h4 class="text-white">Home</h4></a>
-      </div>
-      <div class="bg-dark p-4 span-1">
-        <a href="/search" style="text-decoration: none"><h4 class="text-white">Find a Car</h4></a>
-      </div>  
-       <div class="bg-dark p-4 span-1">
-        <h4 class="text-white">Garage</h4>
-      </div>
-      <div class="bg-dark p-4 span-1">
-        <h4 class="text-white">Settings</h4>
-      </div>
-      <div class="bg-dark" style="width: 55%">
-          <!--Spacing-->
-      </div>
-      <div class="bg-dark p-4 span-1" style="text-align: right">
-        <h4 class="text-white">Log out</h4>
-      </div>
-    </div>
+
+<!-- default bootstrap navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">CarHire</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="/">Home</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/search">Find A Car</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Garage</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+    </ul>
+
+    <ul class="navbar-nav navbar-right">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account</a>
+
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+
+      </li>
+    </ul>
+
+
   </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>
+</nav>
