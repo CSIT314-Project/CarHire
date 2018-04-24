@@ -77,6 +77,7 @@
           </div>
           <button class="btn btn-primary" type="submit">Submit form</button>
         </form>
+        <center><a href="/login">Back to login page</a></center>
       </div>
       <div class="col-md-4""></div>
     </div>

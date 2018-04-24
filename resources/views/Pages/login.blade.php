@@ -25,10 +25,10 @@
 			  <div class="row">
 	
 			  	<div class="col-md-6" style="text-align: right">
-				  	<button type="submit" class="btn btn-primary">Login</button>
+					<button type="submit" class="btn btn-primary">Login</button>
 				</div>
 				<div class="col-md-6" style="text-align: left">
-			  		<button class="btn btn-primary">Register</button>
+			  		<a href="/register"<button class="btn btn-primary">Register</button></a>
 			  	</div>
 			  </div>
 			</form>

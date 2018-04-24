@@ -20,4 +20,8 @@ class PageController extends Controller {
 	public function getDasboard(){
 		return view('Pages.dashboard');
 	}
+
+	public function getSearch(){
+		return view('Pages.search');
+	}
 }

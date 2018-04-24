@@ -15,4 +15,5 @@ Route::get('/', 'PageController@getIndex');
 Route::get('register', 'PageController@getRegister');
 Route::get('login', 'PageController@getLogin');
 Route::get('dashboard', 'PageController@getDasboard');
+Route::get('search', 'PageController@getSearch');
 
