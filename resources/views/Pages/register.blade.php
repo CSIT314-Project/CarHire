@@ -68,7 +68,7 @@
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
               <label class="form-check-label" for="invalidCheck">
-                I the above information provided is correct and agree to terms and conditions of the website. 
+                If the above information provided is correct and agree to terms and conditions of the website. 
               </label>
               <div class="invalid-feedback">
                 You must agree before submitting.
