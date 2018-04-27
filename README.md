@@ -5,12 +5,12 @@
 
 
 
--If you do not have vendor file: from the project directory run 'composer update' from terminal to generate the vendor folder
+- If you do not have vendor file: from the project directory run 'composer update' from terminal to generate the vendor folder
 
 
 
--run 'php artisan migrate' to instantiate database table and whatnot
+- run 'php artisan migrate' to instantiate database table and whatnot
 
 
 
--run 'php artisan serve' to make website live on localhost
+- run 'php artisan serve' to make website live on localhost
