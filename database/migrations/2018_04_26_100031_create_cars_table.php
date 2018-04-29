@@ -20,7 +20,7 @@ class CreateCarsTable extends Migration
             $table->string('model');
             $table->integer('year');
             $table->string('photo');
-
+            $table->string('transmission');
         });
     }
 

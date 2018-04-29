@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Cars;
 
-
-
 class SearchController extends Controller
 {
     /**
@@ -17,9 +15,18 @@ class SearchController extends Controller
     public function index()
     {
         //
-                $data['year'] = 1990;
-
         $data['car'] = Cars::all();;
+
+        $data['minYear'] = 1990;
+        $data['maxYear'] = 2019;
+        $data['make'] = 'none';
+
+        $modelCollection = Cars::pluck('make');
+        $modelCollection = $modelCollection->sort();
+        $modelCollection = $modelCollection->unique();
+
+        $data['makeArray'] = $modelCollection->toArray();        
+        $data['makeArray'] = array_prepend($data['makeArray'], 'none');
 
 
         return view('Pages.search')->withData($data);
@@ -45,10 +52,19 @@ class SearchController extends Controller
     {
         //
         $data['car'] = Cars::all();;
-        $data['make'] = null;
-        $data['year'] = 1990;
+        
 
-        $data['year'] = $request->year;
+        $data['minYear'] = $request->minYear;
+        $data['maxYear'] = $request->maxYear;
+        $data['make'] = $request->make;
+
+        
+        $modelCollection = Cars::pluck('make');
+        $modelCollection = $modelCollection->sort();
+        $modelCollection = $modelCollection->unique();
+
+        $data['makeArray'] = $modelCollection->toArray();        
+        $data['makeArray'] = array_prepend($data['makeArray'], 'none');
 
         return view('Pages.search')->withData($data);
 
