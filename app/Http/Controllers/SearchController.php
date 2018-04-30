@@ -15,23 +15,34 @@ class SearchController extends Controller
     public function index()
     {
         //
+        $data = $this->getModels();
+
         $data['car'] = Cars::all();;
 
-        $data['minYear'] = 1990;
-        $data['maxYear'] = 2019;
-        $data['make'] = 'none';
-
-        $modelCollection = Cars::pluck('make');
-        $modelCollection = $modelCollection->sort();
-        $modelCollection = $modelCollection->unique();
-
-        $data['makeArray'] = $modelCollection->toArray();        
-        $data['makeArray'] = array_prepend($data['makeArray'], 'none');
+        $data['firstRun'] = true;
 
 
         return view('Pages.search')->withData($data);
     }
 
+    public function getModels()
+    {
+        //gets car model list from database to populate dropdown
+        $modelCollection = Cars::pluck('make');
+        $modelCollection = $modelCollection->sort();
+        $modelCollection = $modelCollection->unique();
+        $data['makeArray'] = $modelCollection->toArray();        
+        $data['makeArray'] = array_prepend($data['makeArray'], 'any');
+
+        //gets car transmission list from database to populate dropdown
+        $transmissionCollection = Cars::pluck('transmission');
+        $transmissionCollection = $transmissionCollection->sort();
+        $transmissionCollection = $transmissionCollection->unique();
+        $data['transmissionArray'] = $transmissionCollection->toArray();       
+        $data['transmissionArray'] = array_prepend($data['transmissionArray'], 'any');
+
+        return $data;
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -51,20 +62,18 @@ class SearchController extends Controller
     public function store(Request $request)
     {
         //
-        $data['car'] = Cars::all();;
-        
+        $data = $this->getModels();
 
+        $data['car'] = Cars::all();;
+        $data['firstRun'] = false;
+
+        //sets values for later comparison
         $data['minYear'] = $request->minYear;
         $data['maxYear'] = $request->maxYear;
-        $data['make'] = $request->make;
-
-        
-        $modelCollection = Cars::pluck('make');
-        $modelCollection = $modelCollection->sort();
-        $modelCollection = $modelCollection->unique();
-
-        $data['makeArray'] = $modelCollection->toArray();        
-        $data['makeArray'] = array_prepend($data['makeArray'], 'none');
+        $data['make'] = $data['makeArray'][$request->make];
+        $data['transmission'] = $data['transmissionArray'][$request->transmission];
+        $data['odometerMin'] = $request->odometerMin;
+        $data['odometerMax'] = $request->odometerMax;
 
         return view('Pages.search')->withData($data);
 
