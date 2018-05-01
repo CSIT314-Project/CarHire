@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Form;
 use App\Cars;
 
 class SearchController extends Controller
@@ -20,6 +21,10 @@ class SearchController extends Controller
         $data['car'] = Cars::all();;
 
         $data['firstRun'] = true;
+
+
+        $data['makeForm'] = array(Form::select('make', $data['makeArray'], null, array('class' => 'form-control')));
+
 
 
         return view('Pages.search')->withData($data);
@@ -64,8 +69,9 @@ class SearchController extends Controller
         //
         $data = $this->getModels();
 
-        $data['car'] = Cars::all();;
+        $data['car'] = Cars::orderBy('make')->get();
         $data['firstRun'] = false;
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
 
         //sets values for later comparison
         $data['minYear'] = $request->minYear;

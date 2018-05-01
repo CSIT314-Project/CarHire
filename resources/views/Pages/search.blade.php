@@ -9,7 +9,7 @@
 <header></header>
 	<div class="row">
 		<div class="col-md-4 offset-md-1" >
-			 <h1>Test</h1>
+			 <h1>Search</h1>
 
 		{!! Form::open(['route' => 'cars.store']) !!}
 
@@ -17,8 +17,7 @@
 			Year From:{{Form::selectRange('minYear', $data['car']->min('year'), $data['car']->max('year'), null, array('class' => 'form-control'))}}
 			Year To:{{Form::selectRange('maxYear', $data['car']->min('year'), $data['car']->max('year'), $data['car']->max('year'), array('class' => 'form-control'))}}
 
-			Make:{{Form::select('make', $data['makeArray'], null, array('class' => 'form-control'))}}
-						
+			Make:{{$data['makeForm'][0]}}
 			Transmission: {{Form::select('transmission', $data['transmissionArray'], null, array('class' => 'form-control'))}}
 
 			Kilometres From:{{Form::select('odometerMin', [0=>0, 25000=>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
@@ -51,7 +50,6 @@
 							$cars->transmission == $data['transmission'] || 
 							$data['transmission']=="any"
 						))
-							debug: {{$cars->odometer}}={{$data['odometerMin']}}
 							<div class="jumbotron">
 							<img src="{{ asset($cars->photo) }}" style="width:25%">
 							{{$cars->year}} {{$cars->make}} {{$cars->model}} {{$cars->transmission}} {{$cars->odometer}} Kilometres
