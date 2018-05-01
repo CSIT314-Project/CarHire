@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@include('Partials._navbar')
+@include('Partials._loginStyle')
+<header></header>
 
 @section('content')
 <div class="container">
