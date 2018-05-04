@@ -48,11 +48,26 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+        $message = array(
+            'licenceNum.required' => 'Please enter a valid licence number'
+        );
         return Validator::make($data, [
-            'name' => 'required|string|max:255',
+            'firstName' => 'required|string|max:255',
+            'lastName' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
-        ]);
+            'licenceNum' => 'string|max:255',
+            'phone' => 'string|max:10',
+            'acctNum' => 'string|max:255',
+            'bsb' => 'string|max:255',
+            'cardNum' => 'string|max:255',
+            'ccv' => 'string|max:255',
+            'address' => 'string|max:255',
+            'city' => 'string|max:255',
+            'postCode' => 'string|max:255',
+            'state' => 'string|max:255',
+            'country' => 'string|max:255',
+        ], $message);
     }
 
     /**
@@ -64,9 +79,21 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
+            'firstName' => $data['firstName'],
+            'lastName' => $data['lastName'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'licenceNum' => $data['licenceNum'],
+            'phone' => $data['phone'],
+            'acctNum' => $data['acctNum'],
+            'bsb' => $data['bsb'],
+            'cardNum' => $data['cardNum'],
+            'ccv' => $data['ccv'],
+            'address' => $data['address'],
+            'city' => $data['city'],
+            'postCode' => $data['postCode'],
+            'state' => $data['state'],
+            'country' => $data['country'],
         ]);
     }
 }
