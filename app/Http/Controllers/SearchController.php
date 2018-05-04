@@ -23,7 +23,7 @@ class SearchController extends Controller
         $data['firstRun'] = true;
 
 
-        $data['makeForm'] = array(Form::select('make', $data['makeArray'], null, array('class' => 'form-control')));
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
 
 
 

@@ -22,6 +22,7 @@ class CreateCarsTable extends Migration
             $table->string('photo');
             $table->string('transmission');
             $table->integer('odometer');
+            $table->integer('owner');
         });
     }
 

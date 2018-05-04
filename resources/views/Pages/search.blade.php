@@ -17,7 +17,7 @@
 			Year From:{{Form::selectRange('minYear', $data['car']->min('year'), $data['car']->max('year'), null, array('class' => 'form-control'))}}
 			Year To:{{Form::selectRange('maxYear', $data['car']->min('year'), $data['car']->max('year'), $data['car']->max('year'), array('class' => 'form-control'))}}
 
-			Make:{{$data['makeForm'][0]}}
+			Make:{{$data['makeForm']}}
 			Transmission: {{Form::select('transmission', $data['transmissionArray'], null, array('class' => 'form-control'))}}
 
 			Kilometres From:{{Form::select('odometerMin', [0=>0, 25000=>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
@@ -52,7 +52,7 @@
 						))
 							<div class="jumbotron">
 							<img src="{{ asset($cars->photo) }}" style="width:25%">
-							{{$cars->year}} {{$cars->make}} {{$cars->model}} {{$cars->transmission}} {{$cars->odometer}} Kilometres
+							<p>{{$cars->year}} {{$cars->make}} {{$cars->model}} {{$cars->transmission}} {{$cars->odometer}} Kilometres</p>
 							</div>
 
 					@endif
