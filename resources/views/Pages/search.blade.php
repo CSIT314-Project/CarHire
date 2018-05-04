@@ -8,9 +8,9 @@
 @section('search')
 <header></header>
 	<div class="row">
-		<div class="col-md-4 offset-md-1" >
-			 <h1>Search</h1>
-
+		<div class="col-md-4 offset-md-1">
+			 <h1><strong>Search</strong></h1>
+			
 		{!! Form::open(['route' => 'cars.store']) !!}
 
 			<!--this will dynamically set the lowest and highest values for year-->

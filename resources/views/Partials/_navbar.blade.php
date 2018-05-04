@@ -11,8 +11,8 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"> <a class="nav-link" href="/">Home</a></li>
       <li class="nav-item"> <a class="nav-link" href="/search">Find A Car</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Garage</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+      <li class="nav-item"><a class="nav-link" href="/garage">Garage</a></li>
+      <li class="nav-item"><a class="nav-link" href="/settings">Settings</a></li>
     </ul>
 
     <ul class="navbar-nav navbar-right">

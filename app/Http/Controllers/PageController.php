@@ -24,4 +24,14 @@ class PageController extends Controller {
 	public function getSearch(){
 		return view('Pages.search');
 	}
+
+	public function getSettings(){
+		return view('Pages.settings');
+
+	}
+
+	public function getGarage(){
+		return view('Pages.garage');
+	}
+
 }

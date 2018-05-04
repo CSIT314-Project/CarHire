@@ -17,6 +17,8 @@ Route::get('register', 'PageController@getRegister');
 Route::get('login', 'PageController@getLogin');
 Route::get('dashboard', 'PageController@getDasboard');
 Route::get('search', 'SearchController@index');
+Route::get('garage', 'PageController@getGarage');
+Route::get('settings', 'PageController@getSettings');
 
 
 Route::resource('cars', 'SearchController');
