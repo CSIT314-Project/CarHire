@@ -13,4 +13,8 @@
 
 
 
+-run 'php artisan migrate:refresh' to update table fields if database already exists
+
+
+
 - run 'php artisan serve' to make website live on localhost
