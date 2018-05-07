@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Form;
 use App\Cars;
 
@@ -18,12 +19,9 @@ class SearchController extends Controller
         //
         $data = $this->getModels();
 
-        $data['car'] = Cars::all();;
+        $data['car'] = DB::table('cars')->orderBy('make')->get();
 
-        $data['firstRun'] = true;
-
-
-        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control', 'onchange' => 'submit(this)'));
 
 
 
@@ -32,6 +30,8 @@ class SearchController extends Controller
 
     public function getModels()
     {
+        $data['orderArray'] = array('Sort by Make Ascending','Sort by Make Descending','Sort by Year Ascending', 'Sort by Year Descending', 'Sort by Odometer Ascending', 'Sort by Odometer Descending');
+
         //gets car model list from database to populate dropdown
         $modelCollection = Cars::pluck('make');
         $modelCollection = $modelCollection->sort();
@@ -45,6 +45,7 @@ class SearchController extends Controller
         $transmissionCollection = $transmissionCollection->unique();
         $data['transmissionArray'] = $transmissionCollection->toArray();       
         $data['transmissionArray'] = array_prepend($data['transmissionArray'], 'any');
+
 
         return $data;
     }
@@ -67,19 +68,62 @@ class SearchController extends Controller
     public function store(Request $request)
     {
         //
+        $sortColumn = 'make';
+        $sortDirection = 'Asc';
+
+        switch($request->order)
+        {
+            case 0: $sortColumn = 'make';
+            $sortDirection = 'asc';
+            break;
+            case 1: $sortColumn = 'make';
+            $sortDirection = 'desc';
+            break;
+            case 2: $sortColumn = 'year';
+            $sortDirection = 'asc';
+            break;
+            case 3: $sortColumn = 'year';
+            $sortDirection = 'desc';
+            break;
+            case 4: $sortColumn = 'odometer';
+            $sortDirection = 'asc';
+            break;
+            case 5: $sortColumn = 'odometer';
+            $sortDirection = 'desc';
+            break;
+        }
+
         $data = $this->getModels();
+        $makeOperator = '=';
+        $transmissionOperator = '=';
+        if ($request->odometerMax == 'any')
+        {
+            $request->odometerMax = '99999999';
+        }
+        if ($data['makeArray'][$request->make] == 'any')
+        {
+            $makeOperator = '<>';
+        }
+        if ($data['transmissionArray'][$request->transmission] == 'any')
+        {
+            $transmissionOperator = '<>';
+        }
 
-        $data['car'] = Cars::orderBy('make')->get();
-        $data['firstRun'] = false;
-        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
+        $data['car'] = DB::table('cars')
+        ->where([
+            ['year', '>=', $request->minYear],
+            ['year', '<=', $request->maxYear],
+            ['odometer', '>=', $request->odometerMin],
+            ['odometer', '<=', $request->odometerMax],
+            ['make', $makeOperator, $data['makeArray'][$request->make]],
+            ['transmission', $transmissionOperator, $data['transmissionArray'][$request->transmission]],
 
-        //sets values for later comparison
-        $data['minYear'] = $request->minYear;
-        $data['maxYear'] = $request->maxYear;
-        $data['make'] = $data['makeArray'][$request->make];
-        $data['transmission'] = $data['transmissionArray'][$request->transmission];
-        $data['odometerMin'] = $request->odometerMin;
-        $data['odometerMax'] = $request->odometerMax;
+        ])
+        ->orderBy($sortColumn, $sortDirection)
+        ->get();
+
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control', 'onchange' => 'submit(this)'));
+
 
         return view('Pages.search')->withData($data);
 
