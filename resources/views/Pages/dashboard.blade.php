@@ -18,7 +18,7 @@
 	      		<p>Upload and navigate through your vehicles here</p>
 	      	</div>
 	      	<div class="col-md-4" style="text-align: center;">
-	      		<a href="/search"><img src="{{ asset('images\search.svg') }}" style="width: 200px; height: 200px;"/></a>
+	      		<a href="/cars"><img src="{{ asset('images\search.svg') }}" style="width: 200px; height: 200px;"/></a>
 	      		<h2>Search</h2>
 	      		<p>Find cars available for hire in your local area</p>
 	      	</div>

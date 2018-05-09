@@ -59,6 +59,22 @@ class DatabaseSeeder extends Seeder
     		}
     		fclose ( $handle );
     	}
+
+        if (($handle = fopen ( public_path () . '/MOCK_MESSAGES_DATA.csv', 'r' )) !== FALSE) 
+        {
+            while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
+            {
+                DB::table('messages')->insert([
+                    'id' => $data [0],
+                    'timestamp' => $data [1],
+                    'to' => $data [2],
+                    'from' => $data [3],
+                    'message' => $data [4],
+                ]);
+
+            }
+            fclose ( $handle );
+        }
     	//DB::table('cars')->delete();
     }
 }

@@ -20,6 +20,7 @@ Route::get('search', 'SearchController@index');
 
 
 Route::resource('cars', 'SearchController');
+Route::resource('messages', 'MessageController');
 
 Auth::routes();
 
