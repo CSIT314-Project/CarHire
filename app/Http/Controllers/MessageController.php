@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Auth;
+use App\Messages;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -62,9 +63,6 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -72,6 +70,11 @@ class MessageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    protected function create(array $data)
+    {
+        
+    }
+
     public function store(Request $request)
     {
         //
@@ -87,7 +90,7 @@ class MessageController extends Controller
     public function show($id)
     {
 
-        $data = DB::table('messages')
+        $data['table'] = DB::table('messages')
         ->where([
             ['to', '=', Auth::user()->id],
             ['from', '=', $id],
@@ -96,8 +99,10 @@ class MessageController extends Controller
             ['from', '=', Auth::user()->id],
             ['to', '=', $id],
         ])
-        ->orderBy('timestamp')
+        ->orderBy('created_at')
         ->get();
+
+        $data['fromID'] = $id;
 
         return view('messages.show')->withData($data);
     }
@@ -123,6 +128,13 @@ class MessageController extends Controller
     public function update(Request $request, $id)
     {
         //
+        Messages::create([
+            'message' => $request->sentMessage,
+            'from' => Auth::user()->id,
+            'to' => $id,
+        ]);
+        return redirect()->route('messages.show', $id);
+
     }
 
     /**

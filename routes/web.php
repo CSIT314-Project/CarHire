@@ -21,6 +21,7 @@ Route::get('search', 'SearchController@index');
 
 Route::resource('cars', 'SearchController');
 Route::resource('messages', 'MessageController');
+Route::post('messages/{update}', 'MessageController@update');
 
 Auth::routes();
 

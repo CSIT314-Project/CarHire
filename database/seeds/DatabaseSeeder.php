@@ -66,7 +66,8 @@ class DatabaseSeeder extends Seeder
             {
                 DB::table('messages')->insert([
                     'id' => $data [0],
-                    'timestamp' => $data [1],
+                    'updated_at' => $data [1],
+                    'created_at' => $data [1],
                     'to' => $data [2],
                     'from' => $data [3],
                     'message' => $data [4],

@@ -6,7 +6,7 @@
 <style>
 .speech-bubble-right {
 	position: relative;
-	background: #00ba35;
+	background: #28a745;
 	border-radius: .4em;
 }
 
@@ -18,7 +18,7 @@
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-top-color: #00ba35;
+	border-top-color: #28a745;
 	border-bottom: 0;
 	border-right: 0;
 	margin-left: -10px;
@@ -52,22 +52,26 @@
 
 	<div class="col-md-12">
 		<br>
-		@foreach($data as $messages)
-		@if($messages->from === Auth::user()->id)
-		<div class="col-md-6 offset-md-6 speech-bubble-right" style="color:black;">
-				{{$messages->message}}
-		</div>
-		@else
-		<div class="col-md-6 speech-bubble-left" style="color:black;">
-				<p>{{$messages->message}}<p>
-
-			</hgroup>
-		</div>
-
-		@endif
+		@foreach($data['table'] as $messages)
+			@if($messages->from === Auth::user()->id)
+				<div class="col-md-6 offset-md-6 speech-bubble-right" style="color:black;">
+					<p>{{$messages->message}}</p>
+				</div>
+			@else
+				<div class="col-md-6 speech-bubble-left" style="color:black;">
+					<p>{{$messages->message}}</p>
+				</div>
+			@endif
 		<br>
 		@endforeach
+		{!! Form::open(['route' => ['messages.update', $data['fromID']],'class' => 'form-control offset-md-1 col-md-10' ]) !!}
+			{{Form::textarea('sentMessage',null, array('class' => 'form-control', 'style' => 'background-color:#dbdbdb;height:10%;'))}}
+			<hr>
+			{{Form::submit('Send', array('class' => 'btn btn-success btn-lg btn-block form-control'))}}
+		{!! Form::close() !!}
+
 	</div>
 </div>
+
 @endsection
 
