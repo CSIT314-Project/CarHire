@@ -18,7 +18,7 @@ class SearchController extends Controller
         //
         $data = $this->getModels();
 
-        $data['car'] = Cars::all();;
+        $data['car'] = Cars::all();
 
         $data['firstRun'] = true;
 

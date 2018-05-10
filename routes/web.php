@@ -11,18 +11,21 @@
 |
 */
 
+// middleware('auth') will restrict access of that page to guests
 
-Route::get('/', 'PageController@getIndex');
-Route::get('register', 'PageController@getRegister');
-Route::get('login', 'PageController@getLogin');
-Route::get('dashboard', 'PageController@getDasboard');
-Route::get('search', 'SearchController@index');
-Route::get('garage', 'PageController@getGarage');
-Route::get('settings', 'PageController@getSettings');
+Route::get('/', 'PageController@getIndex')->middleware('auth');
+Route::get('dashboard', 'PageController@getDasboard')->middleware('auth');
+Route::get('search', 'SearchController@index');		//get Search controller route
+Route::get('garage', 'PageController@getGarage')->middleware('auth');
+Route::get('settings', 'PageController@getSettings')->middleware('auth');
 
 
-Route::resource('cars', 'SearchController');
+
+Route::resource('garage', 'addCarController'); 	// Controller route for adding new cars 
+Route::resource('cars', 'SearchController');	// Controller route for searching cars
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');	//route for redirecting user to login screen after logout

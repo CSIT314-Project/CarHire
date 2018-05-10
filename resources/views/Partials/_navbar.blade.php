@@ -2,7 +2,7 @@
 <!-- default bootstrap navbar-->
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">CarHire</a>
+  <strong><a class="navbar-brand" href="/">Rent & Ride</a></strong>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

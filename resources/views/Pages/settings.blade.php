@@ -10,7 +10,7 @@
 	<div class="row" style="text-align: center">
 		<div class="container"><br><br></div>
 		<div class="col-md-12">
-				<a href="" onclick="confirmDelete()">Cancel account</a>
+				<a href="" onclick="confirmDelete()">Delete account</a>
 		</div>
 	</div>
 

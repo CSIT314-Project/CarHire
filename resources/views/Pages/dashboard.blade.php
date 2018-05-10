@@ -5,9 +5,15 @@
 @include('Partials._loginStyle')
 
 @section('dashboard')
-<header>
-</header> 
-  <center><h1><strong>Welcome to CarHire</strong></h1></center>
+<header></header> 
+	<div class="card-body">
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+    </div>
+  <center><h1><strong>Welcome to Rent & Ride</strong></h1></center>
   <br>
   <div class="row">
       <div class="col-md-12">
