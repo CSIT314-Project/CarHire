@@ -48,7 +48,7 @@ class AddCarController extends Controller
             'year' => 'required',
             'odometer' => 'required',
             'transmission' => 'required',
-            'carType' => 'required'
+            'carType' => 'required',
         ));
 
         //Store in the database 
@@ -65,11 +65,11 @@ class AddCarController extends Controller
             'odometer' => $request->odometer,
             'transmission' => $request->transmission,
             'type' => $request->carType,
-            'photo'=> $photoName
+            'user_id' => Auth::user()->id,
+            'photo'=> $photoName,
         ];
-
         $cars->create($data); 
-
+        $data = Cars::all();
         //Redirect to garage page displaying data
         return view('Pages.garage')->withData($data);
     }
