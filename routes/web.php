@@ -17,7 +17,13 @@ Route::get('register', 'PageController@getRegister');
 Route::get('login', 'PageController@getLogin');
 Route::get('dashboard', 'PageController@getDasboard');
 Route::get('search', 'SearchController@index');
+//Route::get('garage', 'PageController@getGarage')->middleware('auth');
+Route::get('settings', 'PageController@getSettings')->middleware('auth');
 
+Route::resource('settings', 'SettingsController');
+
+Route::resource('garage', 'addCarController'); 	// Controller route for adding new cars 
+//Route::post('garage', 'addCarController@destroy'); 	// Controller route for adding new cars 
 
 Route::resource('cars', 'SearchController');
 Route::resource('messages', 'MessageController');

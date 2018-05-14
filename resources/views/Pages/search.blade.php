@@ -36,7 +36,7 @@
 	</div>
 		@foreach($data['car'] as $cars)
 		<div class="jumbotron">
-			<img src="{{ asset($cars->photo) }}" style="width:25%">
+			<img src="{{ asset('images/'.$cars->photo) }}" style="height:25%">
 			<p>{{$cars->year}} {{$cars->make}} {{$cars->model}} {{$cars->transmission}} {{$cars->odometer}} Kilometres</p>
 		</div>
 		@endforeach

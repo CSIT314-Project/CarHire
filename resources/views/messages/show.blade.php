@@ -54,17 +54,17 @@
 		<br>
 		@foreach($data['table'] as $messages)
 			@if($messages->from === Auth::user()->id)
-				<div class="col-md-6 offset-md-6 speech-bubble-right" style="color:black;">
+				<div class="col-md-5 offset-md-6 speech-bubble-right" style="color:black;">
 					<p>{{$messages->message}}</p>
 				</div>
 			@else
-				<div class="col-md-6 speech-bubble-left" style="color:black;">
+				<div class="col-md-5 offset-md-1 speech-bubble-left" style="color:black;">
 					<p>{{$messages->message}}</p>
 				</div>
 			@endif
 		<br>
 		@endforeach
-		{!! Form::open(['route' => ['messages.update', $data['fromID']],'class' => 'form-control offset-md-1 col-md-10' ]) !!}
+		{!! Form::open(['route' => ['messages.update', $data['fromID']],'class' => 'form-control offset-md-2 col-md-8' ]) !!}
 			{{Form::textarea('sentMessage',null, array('class' => 'form-control', 'style' => 'background-color:#dbdbdb;height:10%;'))}}
 			<hr>
 			{{Form::submit('Send', array('class' => 'btn btn-success btn-lg btn-block form-control'))}}

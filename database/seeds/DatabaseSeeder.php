@@ -27,6 +27,7 @@ class DatabaseSeeder extends Seeder
     				'transmission' => $data [5],
     				'odometer' => $data [6],
     				'owner' => $data [7],
+                    'type' => $data [8],
     			]);
 
     		}

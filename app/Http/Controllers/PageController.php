@@ -24,4 +24,5 @@ class PageController extends Controller {
 	public function getSearch(){
 		return view('Pages.search');
 	}
+
 }
