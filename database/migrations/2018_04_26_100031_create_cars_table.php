@@ -24,6 +24,9 @@ class CreateCarsTable extends Migration
             $table->string('type');
             $table->integer('odometer');
             $table->integer('owner');
+            $table->float('rate');
+            $table->string('description',2000)->nullable();
+            $table->string('city');
         });
     }
 

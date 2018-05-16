@@ -30,7 +30,7 @@ class SearchController extends Controller
 
     public function getModels()
     {
-        $data['orderArray'] = array('Sort by Make Ascending','Sort by Make Descending','Sort by Year Ascending', 'Sort by Year Descending', 'Sort by Odometer Ascending', 'Sort by Odometer Descending');
+        $data['orderArray'] = array('Sort by Make Ascending','Sort by Make Descending','Sort by Year Ascending', 'Sort by Year Descending', 'Sort by Odometer Ascending', 'Sort by Odometer Descending', 'Sort by Rate Ascending', 'Sort by Rate Descending', 'Sort by City Ascending', 'Sort by City Descending');
 
         //gets car model list from database to populate dropdown
         $modelCollection = Cars::pluck('make');
@@ -45,6 +45,12 @@ class SearchController extends Controller
         $transmissionCollection = $transmissionCollection->unique();
         $data['transmissionArray'] = $transmissionCollection->toArray();       
         $data['transmissionArray'] = array_prepend($data['transmissionArray'], 'any');
+
+        $cityCollection = Cars::pluck('city');
+        $cityCollection = $cityCollection->sort();
+        $cityCollection = $cityCollection->unique();
+        $data['cityArray'] = $cityCollection->toArray();       
+        $data['cityArray'] = array_prepend($data['cityArray'], 'any');
 
 
         return $data;
@@ -91,11 +97,26 @@ class SearchController extends Controller
             case 5: $sortColumn = 'odometer';
             $sortDirection = 'desc';
             break;
+            case 6: $sortColumn = 'rate';
+            $sortDirection = 'asc';
+            break;
+            case 7: $sortColumn = 'rate';
+            $sortDirection = 'desc';
+            break;
+            case 8: $sortColumn = 'city';
+            $sortDirection = 'asc';
+            break;
+            case 9: $sortColumn = 'city';
+            $sortDirection = 'desc';
+            break;
+
         }
 
         $data = $this->getModels();
         $makeOperator = '=';
         $transmissionOperator = '=';
+        $cityOperator = '=';
+
         if ($request->odometerMax == 'any')
         {
             $request->odometerMax = '99999999';
@@ -108,6 +129,10 @@ class SearchController extends Controller
         {
             $transmissionOperator = '<>';
         }
+        if ($data['cityArray'][$request->city] == 'any')
+        {
+            $cityOperator = '<>';
+        }
 
         $data['car'] = DB::table('cars')
         ->where([
@@ -115,9 +140,11 @@ class SearchController extends Controller
             ['year', '<=', $request->maxYear],
             ['odometer', '>=', $request->odometerMin],
             ['odometer', '<=', $request->odometerMax],
+            ['rate', '>=', $request->rateMin],
+            ['rate', '<=', $request->rateMax],
             ['make', $makeOperator, $data['makeArray'][$request->make]],
             ['transmission', $transmissionOperator, $data['transmissionArray'][$request->transmission]],
-
+            ['city', $cityOperator, $data['cityArray'][$request->city]],
         ])
         ->orderBy($sortColumn, $sortDirection)
         ->get();

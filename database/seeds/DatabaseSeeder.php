@@ -28,6 +28,9 @@ class DatabaseSeeder extends Seeder
     				'odometer' => $data [6],
     				'owner' => $data [7],
                     'type' => $data [8],
+                    'rate' => $data [9],
+                    'description' => $data[10],
+                    'city' => $data[11],
     			]);
 
     		}

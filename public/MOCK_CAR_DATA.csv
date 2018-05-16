@@ -1,200 +1,400 @@
-1,Nissan,Murano,2004,placeholder.gif,auto,42065,16,4WD
-2,Subaru,Leone,1986,placeholder.gif,auto,160770,98,Convertible
-3,Mercury,Tracer,1995,placeholder.gif,manual,116841,3,Coupe
-4,GMC,Sierra,2010,placeholder.gif,manual,258060,70,Sedan
-5,Toyota,Highlander,2012,placeholder.gif,auto,286383,54,Other
-6,Volkswagen,Passat,2006,placeholder.gif,auto,273703,92,4WD
-7,Volvo,960,1994,placeholder.gif,auto,211939,34,Convertible
-8,Mercedes-Benz,E-Class,2001,placeholder.gif,auto,197239,85,Coupe
-9,Chevrolet,Caprice Classic,1995,placeholder.gif,auto,205967,28,Sedan
-10,Cadillac,SRX,2011,placeholder.gif,auto,139541,92,Other
-11,Mazda,626,1985,placeholder.gif,manual,161251,30,4WD
-12,Kia,Optima,2011,placeholder.gif,manual,32581,60,Convertible
-13,Ford,Explorer Sport Trac,2004,placeholder.gif,manual,157353,77,Coupe
-14,Suzuki,Grand Vitara,2004,placeholder.gif,manual,232641,47,Sedan
-15,Mercedes-Benz,400E,1992,placeholder.gif,manual,133037,64,Other
-16,Subaru,Forester,2010,placeholder.gif,auto,168371,29,4WD
-17,Chevrolet,Camaro,1998,placeholder.gif,auto,91805,99,Convertible
-18,Lexus,ES,1991,placeholder.gif,auto,152601,97,Coupe
-19,Mazda,B2000,1985,placeholder.gif,auto,71561,18,Sedan
-20,Audi,A8,2010,placeholder.gif,auto,130103,84,Other
-21,Lexus,GS,2010,placeholder.gif,manual,177510,47,4WD
-22,Land Rover,Discovery Series II,1999,placeholder.gif,manual,164224,65,Convertible
-23,Ford,F350,2007,placeholder.gif,auto,249040,1,Coupe
-24,Mazda,929,1987,placeholder.gif,manual,56575,71,Sedan
-25,Ford,F350,2009,placeholder.gif,manual,285634,87,Other
-26,BMW,525,2001,placeholder.gif,manual,54276,74,4WD
-27,Hyundai,Sonata,2009,placeholder.gif,manual,160406,80,Convertible
-28,Audi,R8,2008,placeholder.gif,manual,213794,39,Coupe
-29,Nissan,Xterra,2002,placeholder.gif,auto,188990,19,Sedan
-30,Toyota,Sequoia,2004,placeholder.gif,manual,223929,18,Other
-31,Chevrolet,Suburban 1500,2010,placeholder.gif,manual,284698,54,4WD
-32,Nissan,Maxima,2004,placeholder.gif,manual,3767,72,Convertible
-33,Ford,F-Series,2007,placeholder.gif,manual,190931,81,Coupe
-34,BMW,330,2005,placeholder.gif,manual,172641,94,Sedan
-35,GMC,Sonoma,1996,placeholder.gif,auto,142308,46,Other
-36,Nissan,Frontier,2002,placeholder.gif,manual,148303,47,4WD
-37,Toyota,Venza,2012,placeholder.gif,auto,57065,52,Convertible
-38,Ford,Escort,1997,placeholder.gif,auto,59035,22,Coupe
-39,Toyota,Corolla,1996,placeholder.gif,manual,20055,100,Sedan
-40,Chevrolet,3500,1992,placeholder.gif,manual,182600,35,Other
-41,Toyota,Corolla,1994,placeholder.gif,auto,164450,38,4WD
-42,Suzuki,Daewoo Magnus,2004,placeholder.gif,manual,86024,97,Convertible
-43,Chevrolet,Cavalier,1999,placeholder.gif,auto,252603,88,Coupe
-44,Bentley,Azure,2010,placeholder.gif,manual,281967,18,Sedan
-45,Chrysler,300,2005,placeholder.gif,auto,273595,17,Other
-46,Volvo,S80,2010,placeholder.gif,manual,235161,82,4WD
-47,Nissan,Altima,2007,placeholder.gif,manual,220273,75,Convertible
-48,Acura,SLX,1997,placeholder.gif,manual,71978,23,Coupe
-49,BMW,X5,2007,placeholder.gif,auto,147357,59,Sedan
-50,Lincoln,Continental,1986,placeholder.gif,manual,230619,20,Other
-51,Honda,Pilot,2007,placeholder.gif,manual,2647,11,4WD
-52,GMC,Sierra 3500,2012,placeholder.gif,auto,27583,34,Convertible
-53,Toyota,Sequoia,2010,placeholder.gif,manual,140381,88,Coupe
-54,Mazda,CX-7,2010,placeholder.gif,manual,231970,47,Sedan
-55,Pontiac,Aztek,2003,placeholder.gif,auto,244813,94,Other
-56,Bentley,Continental Flying Spur,2010,placeholder.gif,auto,42514,24,4WD
-57,Bentley,Continental,2010,placeholder.gif,auto,243835,28,Convertible
-58,Lexus,LX,2009,placeholder.gif,manual,98468,62,Coupe
-59,Ford,E250,2005,placeholder.gif,manual,148742,44,Sedan
-60,Infiniti,G,2001,placeholder.gif,auto,78483,77,Other
-61,Infiniti,FX,2006,placeholder.gif,auto,109369,42,4WD
-62,Mitsubishi,Montero Sport,2000,placeholder.gif,auto,298505,89,Convertible
-63,Mitsubishi,L300,1987,placeholder.gif,manual,181299,36,Coupe
-64,Pontiac,Solstice,2008,placeholder.gif,manual,62021,13,Sedan
-65,Pontiac,Trans Sport,1997,placeholder.gif,auto,165573,4,Other
-66,Volvo,850,1995,placeholder.gif,auto,75037,84,4WD
-67,Saab,9-May,2004,placeholder.gif,auto,180838,46,Convertible
-68,Mercury,Tracer,1989,placeholder.gif,manual,240863,26,Coupe
-69,Pontiac,Safari,1987,placeholder.gif,auto,236372,35,Sedan
-70,Toyota,Sequoia,2001,placeholder.gif,auto,74226,75,Other
-71,Nissan,Pathfinder,2009,placeholder.gif,manual,82612,23,4WD
-72,Toyota,Camry,1993,placeholder.gif,manual,138214,59,Convertible
-73,BMW,530,2001,placeholder.gif,auto,287039,78,Coupe
-74,Volvo,XC60,2010,placeholder.gif,manual,249636,52,Sedan
-75,Infiniti,QX,2010,placeholder.gif,manual,154743,32,Other
-76,Isuzu,Hombre Space,2000,placeholder.gif,auto,203772,4,4WD
-77,Mercedes-Benz,300D,1992,placeholder.gif,auto,290582,21,Convertible
-78,Mitsubishi,Eclipse,1991,placeholder.gif,auto,223802,38,Coupe
-79,Chevrolet,Monte Carlo,2004,placeholder.gif,auto,153707,25,Sedan
-80,GMC,Sierra 2500,2011,placeholder.gif,manual,146619,19,Other
-81,Dodge,Ram Van 1500,1997,placeholder.gif,manual,67353,38,4WD
-82,Lincoln,Town Car,1997,placeholder.gif,manual,143451,75,Convertible
-83,Mercury,Cougar,1987,placeholder.gif,manual,21038,10,Coupe
-84,Chevrolet,Express,2007,placeholder.gif,auto,34626,80,Sedan
-85,Honda,Accord,2007,placeholder.gif,manual,51450,56,Other
-86,Chevrolet,Express 3500,2011,placeholder.gif,manual,289371,85,4WD
-87,Honda,Accord,2010,placeholder.gif,auto,107417,40,Convertible
-88,Lincoln,LS,2000,placeholder.gif,auto,27856,62,Coupe
-89,Mazda,MX-3,1994,placeholder.gif,manual,199861,51,Sedan
-90,Suzuki,Equator,2010,placeholder.gif,manual,176759,17,Other
-91,Pontiac,Trans Sport,1993,placeholder.gif,manual,147576,39,4WD
-92,Lexus,LS,2010,placeholder.gif,manual,206262,15,Convertible
-93,Dodge,Caravan,2006,placeholder.gif,auto,96472,42,Coupe
-94,Ford,Contour,2000,placeholder.gif,auto,257618,12,Sedan
-95,Nissan,Sentra,2010,placeholder.gif,auto,219234,11,Other
-96,Honda,Accord,2005,placeholder.gif,manual,254364,47,4WD
-97,Cadillac,STS-V,2006,placeholder.gif,auto,87286,12,Convertible
-98,Nissan,Altima,1998,placeholder.gif,manual,241419,42,Coupe
-99,Lexus,HS,2011,placeholder.gif,manual,44793,100,Sedan
-100,GMC,Suburban 1500,1994,placeholder.gif,auto,245621,45,Other
-101,Jaguar,XK,2006,placeholder.gif,auto,118191,79,4WD
-102,Geo,Metro,1992,placeholder.gif,auto,293548,98,Convertible
-103,Mazda,B-Series,2009,placeholder.gif,manual,231688,24,Coupe
-104,Land Rover,Discovery,2005,placeholder.gif,auto,58008,67,Sedan
-105,Mercury,Tracer,1992,placeholder.gif,auto,59132,39,Other
-106,Mazda,B-Series,2008,placeholder.gif,manual,47578,96,4WD
-107,Audi,Allroad,2001,placeholder.gif,auto,210496,54,Convertible
-108,Chevrolet,Blazer,1999,placeholder.gif,auto,281376,4,Coupe
-109,Buick,LeSabre,1988,placeholder.gif,manual,82044,32,Sedan
-110,Mitsubishi,Chariot,1986,placeholder.gif,manual,18468,65,Other
-111,Mazda,MPV,2006,placeholder.gif,auto,212437,91,4WD
-112,Honda,Accord,2012,placeholder.gif,auto,117203,78,Convertible
-113,Volvo,XC70,2008,placeholder.gif,manual,230910,22,Coupe
-114,Toyota,Avalon,2003,placeholder.gif,auto,127313,35,Sedan
-115,Eagle,Vision,1997,placeholder.gif,auto,84264,49,Other
-116,Nissan,Sentra,2010,placeholder.gif,auto,26346,2,4WD
-117,Dodge,Ram 3500 Club,1995,placeholder.gif,manual,269417,34,Convertible
-118,Audi,A8,2002,placeholder.gif,auto,204639,98,Coupe
-119,GMC,Sierra 3500,2005,placeholder.gif,auto,11978,60,Sedan
-120,Nissan,Altima,2000,placeholder.gif,manual,277407,73,Other
-121,BMW,M5,2010,placeholder.gif,manual,5359,79,4WD
-122,Mercedes-Benz,GLK-Class,2012,placeholder.gif,manual,267485,31,Convertible
-123,Hyundai,Sonata,1996,placeholder.gif,auto,238191,88,Coupe
-124,Volvo,S60,2002,placeholder.gif,manual,238932,34,Sedan
-125,Cadillac,Escalade EXT,2007,placeholder.gif,auto,69513,7,Other
-126,Ford,Crown Victoria,2000,placeholder.gif,manual,32848,95,4WD
-127,Ford,Transit Connect,2013,placeholder.gif,auto,114851,85,Convertible
-128,Mitsubishi,Diamante,1998,placeholder.gif,auto,24577,54,Coupe
-129,Pontiac,Vibe,2007,placeholder.gif,manual,75814,40,Sedan
-130,Audi,Q7,2011,placeholder.gif,auto,295411,25,Other
-131,GMC,Suburban 2500,1996,placeholder.gif,manual,121352,38,4WD
-132,Jaguar,XK Series,2004,placeholder.gif,auto,68167,11,Convertible
-133,Lincoln,Navigator,2006,placeholder.gif,auto,58204,29,Coupe
-134,Lexus,LX,2005,placeholder.gif,auto,40531,24,Sedan
-135,Kia,Optima,2004,placeholder.gif,auto,88684,64,Other
-136,Subaru,Baja,2006,placeholder.gif,manual,13680,62,4WD
-137,Kia,Sorento,2005,placeholder.gif,manual,165993,78,Convertible
-138,BMW,7 Series,2010,placeholder.gif,manual,82318,57,Coupe
-139,Ford,Contour,2000,placeholder.gif,auto,47163,68,Sedan
-140,BMW,M Roadster,2008,placeholder.gif,manual,96552,58,Other
-141,Lotus,Exige,2005,placeholder.gif,auto,199420,5,4WD
-142,Volkswagen,Passat,2006,placeholder.gif,auto,153727,1,Convertible
-143,Chevrolet,Express 3500,2003,placeholder.gif,auto,13013,18,Coupe
-144,Ford,Fiesta,2001,placeholder.gif,manual,284278,77,Sedan
-145,Infiniti,QX56,2009,placeholder.gif,auto,165598,3,Other
-146,Toyota,Camry Solara,2006,placeholder.gif,auto,230954,99,4WD
-147,Hyundai,Accent,2001,placeholder.gif,auto,286592,6,Convertible
-148,Ford,Courier,1989,placeholder.gif,manual,223673,60,Coupe
-149,Porsche,924 S,1987,placeholder.gif,auto,61372,14,Sedan
-150,Lotus,Esprit,2003,placeholder.gif,auto,91868,24,Other
-151,Acura,Legend,1995,placeholder.gif,auto,16347,6,4WD
-152,Volvo,C70,1998,placeholder.gif,auto,52745,63,Convertible
-153,Dodge,Ram,2007,placeholder.gif,manual,46958,65,Coupe
-154,Pontiac,Grand Prix,2003,placeholder.gif,auto,79155,52,Sedan
-155,Mazda,MPV,1998,placeholder.gif,auto,37181,2,Other
-156,GMC,Savana 3500,2007,placeholder.gif,auto,147455,27,4WD
-157,Toyota,Sequoia,2001,placeholder.gif,manual,261555,33,Convertible
-158,Nissan,NV3500,2012,placeholder.gif,manual,295035,46,Coupe
-159,Smart,Fortwo,2011,placeholder.gif,manual,92615,3,Sedan
-160,Pontiac,Sunbird,1987,placeholder.gif,manual,191428,47,Other
-161,Buick,Coachbuilder,1990,placeholder.gif,auto,263785,66,4WD
-162,BMW,Z4,2005,placeholder.gif,auto,63931,85,Convertible
-163,Suzuki,Esteem,2002,placeholder.gif,manual,261189,70,Coupe
-164,Porsche,Panamera,2011,placeholder.gif,manual,96579,13,Sedan
-165,GMC,Envoy,2002,placeholder.gif,manual,8987,60,Other
-166,Dodge,Neon,2000,placeholder.gif,auto,60982,95,4WD
-167,Infiniti,IPL G,2012,placeholder.gif,manual,125526,16,Convertible
-168,Cadillac,Catera,1999,placeholder.gif,manual,236010,52,Coupe
-169,Ford,F150,1992,placeholder.gif,auto,99165,96,Sedan
-170,Pontiac,GTO,1969,placeholder.gif,auto,174773,44,Other
-171,Cadillac,CTS-V,2011,placeholder.gif,manual,100627,76,4WD
-172,Chevrolet,Aveo,2006,placeholder.gif,auto,120272,77,Convertible
-173,Pontiac,Grand Prix,1971,placeholder.gif,manual,250556,99,Coupe
-174,Lincoln,MKX,2009,placeholder.gif,auto,28922,88,Sedan
-175,Aston Martin,V8 Vantage,2006,placeholder.gif,manual,118286,11,Other
-176,Toyota,Sienna,2005,placeholder.gif,manual,36199,3,4WD
-177,Suzuki,SJ,1985,placeholder.gif,manual,207825,7,Convertible
-178,Chevrolet,Corsica,1992,placeholder.gif,auto,263126,69,Coupe
-179,Cadillac,DeVille,1998,placeholder.gif,manual,177782,67,Sedan
-180,Lexus,ES,2001,placeholder.gif,manual,282932,91,Other
-181,Nissan,Altima,2012,placeholder.gif,auto,136007,72,4WD
-182,Mazda,B-Series,2000,placeholder.gif,auto,135283,96,Convertible
-183,Eagle,Talon,1998,placeholder.gif,auto,130377,83,Coupe
-184,Mercedes-Benz,CLS-Class,2009,placeholder.gif,auto,11729,61,Sedan
-185,Oldsmobile,Intrigue,2002,placeholder.gif,manual,235233,88,Other
-186,Porsche,Cayman,2006,placeholder.gif,auto,54295,32,4WD
-187,Pontiac,Bonneville,1967,placeholder.gif,auto,104783,44,Convertible
-188,Acura,TSX,2012,placeholder.gif,manual,31146,39,Coupe
-189,Ford,Fusion,2012,placeholder.gif,auto,105679,43,Sedan
-190,Ford,Festiva,1989,placeholder.gif,manual,283183,83,Other
-191,Pontiac,Firefly,1990,placeholder.gif,manual,256158,67,4WD
-192,Buick,LaCrosse,2012,placeholder.gif,auto,32357,85,Convertible
-193,GMC,Savana 3500,1999,placeholder.gif,auto,93252,72,Coupe
-194,Chevrolet,Colorado,2007,placeholder.gif,manual,11382,11,Sedan
-195,Honda,Prelude,1999,placeholder.gif,manual,260933,25,Other
-196,Lincoln,Town Car,1984,placeholder.gif,manual,228326,76,4WD
-197,Pontiac,Grand Prix,2003,placeholder.gif,manual,23695,15,Convertible
-198,Toyota,Avalon,2008,placeholder.gif,auto,187058,29,Coupe
-199,Aston Martin,DB9,2007,placeholder.gif,manual,222301,82,Sedan
-200,Mitsubishi,Lancer,2009,placeholder.gif,auto,104494,42,Other
+1,Nissan,Murano,2004,placeholder.gif,auto,42065,16,4WD,69.91,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Sydney (Capital)
+2,Subaru,Leone,1986,placeholder.gif,auto,160770,98,Convertible,62.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Albury (NSW-Victoria border)
+3,Mercury,Tracer,1995,placeholder.gif,manual,116841,3,Coupe,99.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Armidale
+4,GMC,Sierra,2010,placeholder.gif,manual,258060,70,Sedan,96.66,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bathurst
+5,Toyota,Highlander,2012,placeholder.gif,auto,286383,54,Other,59.04,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Broken Hill
+6,Volkswagen,Passat,2006,placeholder.gif,auto,273703,92,4WD,40.88,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cessnock
+7,Volvo,960,1994,placeholder.gif,auto,211939,34,Convertible,31.92,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Coffs Harbour
+8,Mercedes-Benz,E-Class,2001,placeholder.gif,auto,197239,85,Coupe,32.57,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Dubbo
+9,Chevrolet,Caprice Classic,1995,placeholder.gif,auto,205967,28,Sedan,22.6,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gosford
+10,Cadillac,SRX,2011,placeholder.gif,auto,139541,92,Other,55.82,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Goulburn
+11,Mazda,626,1985,placeholder.gif,manual,161251,30,4WD,22.72,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Grafton
+12,Kia,Optima,2011,placeholder.gif,manual,32581,60,Convertible,23.38,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Griffith
+13,Ford,Explorer Sport Trac,2004,placeholder.gif,manual,157353,77,Coupe,70.16,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lake Macquarie
+14,Suzuki,Grand Vitara,2004,placeholder.gif,manual,232641,47,Sedan,53.92,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lismore
+15,Mercedes-Benz,400E,1992,placeholder.gif,manual,133037,64,Other,94.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Maitland
+16,Subaru,Forester,2010,placeholder.gif,auto,168371,29,4WD,53.59,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Newcastle
+17,Chevrolet,Camaro,1998,placeholder.gif,auto,91805,99,Convertible,33.06,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Nowra
+18,Lexus,ES,1991,placeholder.gif,auto,152601,97,Coupe,64.21,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Orange
+19,Mazda,B2000,1985,placeholder.gif,auto,71561,18,Sedan,84.67,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Macquarie
+20,Audi,A8,2010,placeholder.gif,auto,130103,84,Other,38.21,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Queanbeyan (adjacent to Canberra)
+21,Lexus,GS,2010,placeholder.gif,manual,177510,47,4WD,39.14,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tamworth
+22,Land Rover,Discovery Series II,1999,placeholder.gif,manual,164224,65,Convertible,94.56,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tweed Heads (NSW-Queensland border)
+23,Ford,F350,2007,placeholder.gif,auto,249040,1,Coupe,96.4,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wagga Wagga
+24,Mazda,929,1987,placeholder.gif,manual,56575,71,Sedan,90.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wollongong
+25,Ford,F350,2009,placeholder.gif,manual,285634,87,Other,72.38,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wyong
+26,BMW,525,2001,placeholder.gif,manual,54276,74,4WD,95.81,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Darwin (Capital)
+27,Hyundai,Sonata,2009,placeholder.gif,manual,160406,80,Convertible,60.27,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Alice Springs
+28,Audi,R8,2008,placeholder.gif,manual,213794,39,Coupe,75.44,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Katherine
+29,Nissan,Xterra,2002,placeholder.gif,auto,188990,19,Sedan,47.65,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Palmerston
+30,Toyota,Sequoia,2004,placeholder.gif,manual,223929,18,Other,87.67,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Brisbane (Capital)
+31,Chevrolet,Suburban 1500,2010,placeholder.gif,manual,284698,54,4WD,27.15,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bundaberg
+32,Nissan,Maxima,2004,placeholder.gif,manual,3767,72,Convertible,27.53,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cairns
+33,Ford,F-Series,2007,placeholder.gif,manual,190931,81,Coupe,82.55,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Charters Towers
+34,BMW,330,2005,placeholder.gif,manual,172641,94,Sedan,88.91,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gladstone
+35,GMC,Sonoma,1996,placeholder.gif,auto,142308,46,Other,84.31,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gold Coast
+36,Nissan,Frontier,2002,placeholder.gif,manual,148303,47,4WD,39.17,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gympie
+37,Toyota,Venza,2012,placeholder.gif,auto,57065,52,Convertible,66.16,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Hervey Bay
+38,Ford,Escort,1997,placeholder.gif,auto,59035,22,Coupe,33.37,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Ipswich
+39,Toyota,Corolla,1996,placeholder.gif,manual,20055,100,Sedan,79.66,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Logan City
+40,Chevrolet,3500,1992,placeholder.gif,manual,182600,35,Other,72.07,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mackay
+41,Toyota,Corolla,1994,placeholder.gif,auto,164450,38,4WD,99.19,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Maryborough
+42,Suzuki,Daewoo Magnus,2004,placeholder.gif,manual,86024,97,Convertible,88.67,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mount Isa
+43,Chevrolet,Cavalier,1999,placeholder.gif,auto,252603,88,Coupe,41.74,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Nambour
+44,Bentley,Azure,2010,placeholder.gif,manual,281967,18,Sedan,42.07,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Redcliffe
+45,Chrysler,300,2005,placeholder.gif,auto,273595,17,Other,35.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Rockhampton
+46,Volvo,S80,2010,placeholder.gif,manual,235161,82,4WD,57.47,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Sunshine Coast {region}
+47,Nissan,Altima,2007,placeholder.gif,manual,220273,75,Convertible,63.18,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Thuringowa
+48,Acura,SLX,1997,placeholder.gif,manual,71978,23,Coupe,88.64,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Toowoomba
+49,BMW,X5,2007,placeholder.gif,auto,147357,59,Sedan,97.1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Townsville
+50,Lincoln,Continental,1986,placeholder.gif,manual,230619,20,Other,95.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Adelaide (Capital)
+51,Honda,Pilot,2007,placeholder.gif,manual,2647,11,4WD,93.99,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gladstone
+52,GMC,Sierra 3500,2012,placeholder.gif,auto,27583,34,Convertible,50.19,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mount Gambier
+53,Toyota,Sequoia,2010,placeholder.gif,manual,140381,88,Coupe,76.36,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Murray Bridge
+54,Mazda,CX-7,2010,placeholder.gif,manual,231970,47,Sedan,72.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Augusta
+55,Pontiac,Aztek,2003,placeholder.gif,auto,244813,94,Other,97.8,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Pirie
+56,Bentley,Continental Flying Spur,2010,placeholder.gif,auto,42514,24,4WD,95.1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Lincoln
+57,Bentley,Continental,2010,placeholder.gif,auto,243835,28,Convertible,22.06,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Victor Harbor
+58,Lexus,LX,2009,placeholder.gif,manual,98468,62,Coupe,66.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Whyalla
+59,Ford,E250,2005,placeholder.gif,manual,148742,44,Sedan,72.93,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Burnie
+60,Infiniti,G,2001,placeholder.gif,auto,78483,77,Other,45.03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Clarence
+61,Infiniti,FX,2006,placeholder.gif,auto,109369,42,4WD,45.71,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Devonport
+62,Mitsubishi,Montero Sport,2000,placeholder.gif,auto,298505,89,Convertible,75.5,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Glenorchy
+63,Mitsubishi,L300,1987,placeholder.gif,manual,181299,36,Coupe,95.64,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Launceston
+64,Pontiac,Solstice,2008,placeholder.gif,manual,62021,13,Sedan,78.15,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Melbourne (Capital)
+65,Pontiac,Trans Sport,1997,placeholder.gif,auto,165573,4,Other,88.1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Benalla
+66,Volvo,850,1995,placeholder.gif,auto,75037,84,4WD,97.81,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Ballarat
+67,Saab,9-May,2004,placeholder.gif,auto,180838,46,Convertible,24.86,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bendigo
+68,Mercury,Tracer,1989,placeholder.gif,manual,240863,26,Coupe,38.54,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Geelong
+69,Pontiac,Safari,1987,placeholder.gif,auto,236372,35,Sedan,77.78,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Latrobe City
+70,Toyota,Sequoia,2001,placeholder.gif,auto,74226,75,Other,62.12,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mildura
+71,Nissan,Pathfinder,2009,placeholder.gif,manual,82612,23,4WD,85.11,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Shepparton
+72,Toyota,Camry,1993,placeholder.gif,manual,138214,59,Convertible,95.17,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Swan Hill
+73,BMW,530,2001,placeholder.gif,auto,287039,78,Coupe,53.2,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wangaratta
+74,Volvo,XC60,2010,placeholder.gif,manual,249636,52,Sedan,39.29,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Warrnambool
+75,Infiniti,QX,2010,placeholder.gif,manual,154743,32,Other,25.45,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wodonga
+76,Isuzu,Hombre Space,2000,placeholder.gif,auto,203772,4,4WD,67.5,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Perth (Capital)
+77,Mercedes-Benz,300D,1992,placeholder.gif,auto,290582,21,Convertible,81.15,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Albany
+78,Mitsubishi,Eclipse,1991,placeholder.gif,auto,223802,38,Coupe,82.49,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Broome
+79,Chevrolet,Monte Carlo,2004,placeholder.gif,auto,153707,25,Sedan,29.04,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bunbury
+80,GMC,Sierra 2500,2011,placeholder.gif,manual,146619,19,Other,67.82,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Geraldton
+81,Dodge,Ram Van 1500,1997,placeholder.gif,manual,67353,38,4WD,22.46,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Fremantle
+82,Lincoln,Town Car,1997,placeholder.gif,manual,143451,75,Convertible,50.25,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Kalgoorlie
+83,Mercury,Cougar,1987,placeholder.gif,manual,21038,10,Coupe,25.56,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mandurah
+84,Chevrolet,Express,2007,placeholder.gif,auto,34626,80,Sedan,31.6,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Hedland
+85,Honda,Accord,2007,placeholder.gif,manual,51450,56,Other,56.62,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Sydney (Capital)
+86,Chevrolet,Express 3500,2011,placeholder.gif,manual,289371,85,4WD,20.92,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Albury (NSW-Victoria border)
+87,Honda,Accord,2010,placeholder.gif,auto,107417,40,Convertible,53.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Armidale
+88,Lincoln,LS,2000,placeholder.gif,auto,27856,62,Coupe,91.84,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bathurst
+89,Mazda,MX-3,1994,placeholder.gif,manual,199861,51,Sedan,90.07,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Broken Hill
+90,Suzuki,Equator,2010,placeholder.gif,manual,176759,17,Other,74.53,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cessnock
+91,Pontiac,Trans Sport,1993,placeholder.gif,manual,147576,39,4WD,66.76,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Coffs Harbour
+92,Lexus,LS,2010,placeholder.gif,manual,206262,15,Convertible,89.01,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Dubbo
+93,Dodge,Caravan,2006,placeholder.gif,auto,96472,42,Coupe,63.03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gosford
+94,Ford,Contour,2000,placeholder.gif,auto,257618,12,Sedan,55.05,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Goulburn
+95,Nissan,Sentra,2010,placeholder.gif,auto,219234,11,Other,32.74,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Grafton
+96,Honda,Accord,2005,placeholder.gif,manual,254364,47,4WD,32.16,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Griffith
+97,Cadillac,STS-V,2006,placeholder.gif,auto,87286,12,Convertible,77.22,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lake Macquarie
+98,Nissan,Altima,1998,placeholder.gif,manual,241419,42,Coupe,52.3,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lismore
+99,Lexus,HS,2011,placeholder.gif,manual,44793,100,Sedan,53.32,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Maitland
+100,GMC,Suburban 1500,1994,placeholder.gif,auto,245621,45,Other,74.12,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Newcastle
+101,Jaguar,XK,2006,placeholder.gif,auto,118191,79,4WD,46.82,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Nowra
+102,Geo,Metro,1992,placeholder.gif,auto,293548,98,Convertible,88.96,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Orange
+103,Mazda,B-Series,2009,placeholder.gif,manual,231688,24,Coupe,90.86,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Macquarie
+104,Land Rover,Discovery,2005,placeholder.gif,auto,58008,67,Sedan,80.03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Queanbeyan (adjacent to Canberra)
+105,Mercury,Tracer,1992,placeholder.gif,auto,59132,39,Other,44.08,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tamworth
+106,Mazda,B-Series,2008,placeholder.gif,manual,47578,96,4WD,99.21,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tweed Heads (NSW-Queensland border)
+107,Audi,Allroad,2001,placeholder.gif,auto,210496,54,Convertible,90.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wagga Wagga
+108,Chevrolet,Blazer,1999,placeholder.gif,auto,281376,4,Coupe,91.01,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wollongong
+109,Buick,LeSabre,1988,placeholder.gif,manual,82044,32,Sedan,25.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wyong
+110,Mitsubishi,Chariot,1986,placeholder.gif,manual,18468,65,Other,61.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Darwin (Capital)
+111,Mazda,MPV,2006,placeholder.gif,auto,212437,91,4WD,64.54,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Alice Springs
+112,Honda,Accord,2012,placeholder.gif,auto,117203,78,Convertible,38.09,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Katherine
+113,Volvo,XC70,2008,placeholder.gif,manual,230910,22,Coupe,46.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Palmerston
+114,Toyota,Avalon,2003,placeholder.gif,auto,127313,35,Sedan,62.97,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Brisbane (Capital)
+115,Eagle,Vision,1997,placeholder.gif,auto,84264,49,Other,23.1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bundaberg
+116,Nissan,Sentra,2010,placeholder.gif,auto,26346,2,4WD,37.2,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cairns
+117,Dodge,Ram 3500 Club,1995,placeholder.gif,manual,269417,34,Convertible,72.34,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Charters Towers
+118,Audi,A8,2002,placeholder.gif,auto,204639,98,Coupe,22.64,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gladstone
+119,GMC,Sierra 3500,2005,placeholder.gif,auto,11978,60,Sedan,61.12,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gold Coast
+120,Nissan,Altima,2000,placeholder.gif,manual,277407,73,Other,22.81,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gympie
+121,BMW,M5,2010,placeholder.gif,manual,5359,79,4WD,28.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Hervey Bay
+122,Mercedes-Benz,GLK-Class,2012,placeholder.gif,manual,267485,31,Convertible,37.78,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Ipswich
+123,Hyundai,Sonata,1996,placeholder.gif,auto,238191,88,Coupe,34.74,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Logan City
+124,Volvo,S60,2002,placeholder.gif,manual,238932,34,Sedan,87.86,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mackay
+125,Cadillac,Escalade EXT,2007,placeholder.gif,auto,69513,7,Other,68.43,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Maryborough
+126,Ford,Crown Victoria,2000,placeholder.gif,manual,32848,95,4WD,97.64,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mount Isa
+127,Ford,Transit Connect,2013,placeholder.gif,auto,114851,85,Convertible,22.28,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Nambour
+128,Mitsubishi,Diamante,1998,placeholder.gif,auto,24577,54,Coupe,79.46,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Redcliffe
+129,Pontiac,Vibe,2007,placeholder.gif,manual,75814,40,Sedan,63.42,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Rockhampton
+130,Audi,Q7,2011,placeholder.gif,auto,295411,25,Other,48.84,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Sunshine Coast {region}
+131,GMC,Suburban 2500,1996,placeholder.gif,manual,121352,38,4WD,82.05,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Thuringowa
+132,Jaguar,XK Series,2004,placeholder.gif,auto,68167,11,Convertible,65.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Toowoomba
+133,Lincoln,Navigator,2006,placeholder.gif,auto,58204,29,Coupe,99.27,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Townsville
+134,Lexus,LX,2005,placeholder.gif,auto,40531,24,Sedan,40.93,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Adelaide (Capital)
+135,Kia,Optima,2004,placeholder.gif,auto,88684,64,Other,88.02,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gladstone
+136,Subaru,Baja,2006,placeholder.gif,manual,13680,62,4WD,48.72,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mount Gambier
+137,Kia,Sorento,2005,placeholder.gif,manual,165993,78,Convertible,22.6,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Murray Bridge
+138,BMW,7 Series,2010,placeholder.gif,manual,82318,57,Coupe,44.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Augusta
+139,Ford,Contour,2000,placeholder.gif,auto,47163,68,Sedan,50.38,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Pirie
+140,BMW,M Roadster,2008,placeholder.gif,manual,96552,58,Other,66.23,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Lincoln
+141,Lotus,Exige,2005,placeholder.gif,auto,199420,5,4WD,89.13,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Victor Harbor
+142,Volkswagen,Passat,2006,placeholder.gif,auto,153727,1,Convertible,38.55,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Whyalla
+143,Chevrolet,Express 3500,2003,placeholder.gif,auto,13013,18,Coupe,25.27,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Burnie
+144,Ford,Fiesta,2001,placeholder.gif,manual,284278,77,Sedan,49.14,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Clarence
+145,Infiniti,QX56,2009,placeholder.gif,auto,165598,3,Other,57.14,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Devonport
+146,Toyota,Camry Solara,2006,placeholder.gif,auto,230954,99,4WD,29.95,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Glenorchy
+147,Hyundai,Accent,2001,placeholder.gif,auto,286592,6,Convertible,88.23,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Launceston
+148,Ford,Courier,1989,placeholder.gif,manual,223673,60,Coupe,42.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Melbourne (Capital)
+149,Porsche,924 S,1987,placeholder.gif,auto,61372,14,Sedan,37.33,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Benalla
+150,Lotus,Esprit,2003,placeholder.gif,auto,91868,24,Other,57.03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Ballarat
+151,Acura,Legend,1995,placeholder.gif,auto,16347,6,4WD,93.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bendigo
+152,Volvo,C70,1998,placeholder.gif,auto,52745,63,Convertible,82.81,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Geelong
+153,Dodge,Ram,2007,placeholder.gif,manual,46958,65,Coupe,89.92,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Latrobe City
+154,Pontiac,Grand Prix,2003,placeholder.gif,auto,79155,52,Sedan,42.32,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mildura
+155,Mazda,MPV,1998,placeholder.gif,auto,37181,2,Other,96.64,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Shepparton
+156,GMC,Savana 3500,2007,placeholder.gif,auto,147455,27,4WD,52.56,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Swan Hill
+157,Toyota,Sequoia,2001,placeholder.gif,manual,261555,33,Convertible,62.34,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wangaratta
+158,Nissan,NV3500,2012,placeholder.gif,manual,295035,46,Coupe,69.88,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Warrnambool
+159,Smart,Fortwo,2011,placeholder.gif,manual,92615,3,Sedan,33.8,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wodonga
+160,Pontiac,Sunbird,1987,placeholder.gif,manual,191428,47,Other,55.61,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Perth (Capital)
+161,Buick,Coachbuilder,1990,placeholder.gif,auto,263785,66,4WD,39.65,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Albany
+162,BMW,Z4,2005,placeholder.gif,auto,63931,85,Convertible,98.27,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Broome
+163,Suzuki,Esteem,2002,placeholder.gif,manual,261189,70,Coupe,94.24,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bunbury
+164,Porsche,Panamera,2011,placeholder.gif,manual,96579,13,Sedan,32.24,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Geraldton
+165,GMC,Envoy,2002,placeholder.gif,manual,8987,60,Other,28.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Fremantle
+166,Dodge,Neon,2000,placeholder.gif,auto,60982,95,4WD,62.28,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Kalgoorlie
+167,Infiniti,IPL G,2012,placeholder.gif,manual,125526,16,Convertible,38.01,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Mandurah
+168,Cadillac,Catera,1999,placeholder.gif,manual,236010,52,Coupe,37.1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Hedland
+169,Ford,F150,1992,placeholder.gif,auto,99165,96,Sedan,39.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Sydney (Capital)
+170,Pontiac,GTO,1969,placeholder.gif,auto,174773,44,Other,35.41,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Albury (NSW-Victoria border)
+171,Cadillac,CTS-V,2011,placeholder.gif,manual,100627,76,4WD,46.48,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Armidale
+172,Chevrolet,Aveo,2006,placeholder.gif,auto,120272,77,Convertible,35.7,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bathurst
+173,Pontiac,Grand Prix,1971,placeholder.gif,manual,250556,99,Coupe,23.24,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Broken Hill
+174,Lincoln,MKX,2009,placeholder.gif,auto,28922,88,Sedan,31.59,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cessnock
+175,Aston Martin,V8 Vantage,2006,placeholder.gif,manual,118286,11,Other,34.03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Coffs Harbour
+176,Toyota,Sienna,2005,placeholder.gif,manual,36199,3,4WD,38.81,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Dubbo
+177,Suzuki,SJ,1985,placeholder.gif,manual,207825,7,Convertible,85.5,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Gosford
+178,Chevrolet,Corsica,1992,placeholder.gif,auto,263126,69,Coupe,55.96,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Goulburn
+179,Cadillac,DeVille,1998,placeholder.gif,manual,177782,67,Sedan,33.78,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Grafton
+180,Lexus,ES,2001,placeholder.gif,manual,282932,91,Other,88.51,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Griffith
+181,Nissan,Altima,2012,placeholder.gif,auto,136007,72,4WD,67.58,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lake Macquarie
+182,Mazda,B-Series,2000,placeholder.gif,auto,135283,96,Convertible,82.56,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Lismore
+183,Eagle,Talon,1998,placeholder.gif,auto,130377,83,Coupe,69.73,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Maitland
+184,Mercedes-Benz,CLS-Class,2009,placeholder.gif,auto,11729,61,Sedan,71.45,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Newcastle
+185,Oldsmobile,Intrigue,2002,placeholder.gif,manual,235233,88,Other,65.09,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Nowra
+186,Porsche,Cayman,2006,placeholder.gif,auto,54295,32,4WD,22.42,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Orange
+187,Pontiac,Bonneville,1967,placeholder.gif,auto,104783,44,Convertible,36.12,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Port Macquarie
+188,Acura,TSX,2012,placeholder.gif,manual,31146,39,Coupe,22.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Queanbeyan (adjacent to Canberra)
+189,Ford,Fusion,2012,placeholder.gif,auto,105679,43,Sedan,84.68,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tamworth
+190,Ford,Festiva,1989,placeholder.gif,manual,283183,83,Other,94.3,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Tweed Heads (NSW-Queensland border)
+191,Pontiac,Firefly,1990,placeholder.gif,manual,256158,67,4WD,52.5,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wagga Wagga
+192,Buick,LaCrosse,2012,placeholder.gif,auto,32357,85,Convertible,68.77,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wollongong
+193,GMC,Savana 3500,1999,placeholder.gif,auto,93252,72,Coupe,84.3,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Wyong
+194,Chevrolet,Colorado,2007,placeholder.gif,manual,11382,11,Sedan,62.92,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Darwin (Capital)
+195,Honda,Prelude,1999,placeholder.gif,manual,260933,25,Other,99.06,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Alice Springs
+196,Lincoln,Town Car,1984,placeholder.gif,manual,228326,76,4WD,78.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Katherine
+197,Pontiac,Grand Prix,2003,placeholder.gif,manual,23695,15,Convertible,86.63,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Palmerston
+198,Toyota,Avalon,2008,placeholder.gif,auto,187058,29,Coupe,37.36,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Brisbane (Capital)
+199,Aston Martin,DB9,2007,placeholder.gif,manual,222301,82,Sedan,57.24,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Bundaberg
+200,Mitsubishi,Lancer,2009,placeholder.gif,auto,104494,42,Other,39.87,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet interdum sem, in semper sapien. Fusce vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat erat vitae purus ultrices, a tempus purus mattis. Etiam auctor dapibus nunc vitae aliquam. Pellentesque massa tortor, sagittis id pulvinar eu, pretium a lectus. Fusce dapibus elit non sagittis semper.
+",Cairns
