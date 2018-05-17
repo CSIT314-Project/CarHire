@@ -96,7 +96,49 @@ class SettingsController extends Controller
     public function update(Request $request, $id)
     {
         //
-    }
+        $users = User::find($id);
+        
+        if($request->email!=NULL)
+           $users->email = $request->email;
+
+       if($request->licenceNum!=NULL)
+           $users->licenceNum = $request->licenceNum;
+
+       if($request->phone!=NULL)
+           $users->phone = $request->phone;
+
+       if($request->bsb!=NULL)
+           $users->bsb = $request->bsb;
+
+       if($request->acctNum!=NULL)
+           $users->acctNum = $request->acctNum;
+
+       if($request->ccv!=NULL)
+           $users->ccv = $request->ccv;
+
+       if($request->address!=NULL)
+           $users->address = $request->address;
+
+       if($request->city!=NULL)
+           $users->city = $request->city;
+
+       if($request->postcode!=NULL)
+           $users->postcode = $request->postcode;
+
+       if($request->state!=NULL)
+           $users->state = $request->state;
+
+       if($request->country!=NULL)
+           $users->country = $request->country;
+
+       if($request->cardNum!=NULL)
+           $users->cardNum = $request->cardNum;
+
+       $users->save();
+
+       return redirect()->route('settings.index');
+
+   }
 
     /**
      * Remove the specified resource from storage.
