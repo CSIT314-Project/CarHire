@@ -27,6 +27,7 @@
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="/settings">My Settings</a>
             <a class="dropdown-item" href="/messages">My Messages</a>
+            <a class="dropdown-item" href="/transactions">My transactions</a>
             <a class="dropdown-item" href="{{ route('logout') }}"
                onclick="event.preventDefault();
                document.getElementById('logout-form').submit();">

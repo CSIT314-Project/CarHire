@@ -16,6 +16,9 @@ Route::get('/', 'PageController@getIndex');
 Route::get('register', 'PageController@getRegister');
 Route::get('login', 'PageController@getLogin');
 Route::get('dashboard', 'PageController@getDasboard');
+Route::get('sorry', 'PageController@getSorry')->name('home');
+
+
 Route::get('search', 'SearchController@index');
 //Route::get('garage', 'PageController@getGarage')->middleware('auth');
 Route::get('settings', 'PageController@getSettings')->middleware('auth');
@@ -27,6 +30,8 @@ Route::resource('garage', 'addCarController'); 	// Controller route for adding n
 
 Route::resource('cars', 'SearchController');
 Route::resource('messages', 'MessageController');
+Route::resource('transactions', 'TransactionsController');
+
 Route::post('messages/{update}', 'MessageController@update');
 
 Auth::routes();

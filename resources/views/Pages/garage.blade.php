@@ -18,7 +18,7 @@
 	</div>
 	<div class="col-md-8" style='text-align: right;'>
 		<!-- Display user cars here -->
-@foreach($data as $cars)
+		@foreach($data as $cars)
 		<div class="container">
 			<div class="jumbotron">
 				<div class="row">	
@@ -51,10 +51,11 @@
 						<br>
 						<h5>{{$cars->city}}</h5>
 						<br>	
-						<a class="btn-lg btn-info "
-						href="https://twitter.com/intent/tweet?text=Come rent my {{$cars->make}} {{$cars->model}} at the Rent and Ride Website">Share</a>
-						<br>
-						<div style="position: absolute; bottom: 10px;right :10px;">
+						<div> 
+							<a class="btn-lg btn-info "
+							href="https://twitter.com/intent/tweet?text=Come rent my {{$cars->make}} {{$cars->model}} at the Rent and Ride Website">Share</a>
+							<br>
+							<br>
 							{!! Form::open(['method'  => 'delete', 'route' => ['garage.destroy', $cars->id]])!!}
 							{{form::submit('Remove',['class' => 'btn btn-danger btn-lg', 'type' => 'submit'])}}
 							{!! Form::close() !!}
@@ -64,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-	@endforeach
+		@endforeach
 	</div>	<!-- md-8 div end -->
 </div>	<!-- row div end -->
 <div class="col-md-4"> 

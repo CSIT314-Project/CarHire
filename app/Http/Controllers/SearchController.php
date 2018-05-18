@@ -21,7 +21,7 @@ class SearchController extends Controller
 
         $data['car'] = DB::table('cars')->orderBy('make')->get();
 
-        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control', 'onchange' => 'submit(this)'));
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
 
 
 

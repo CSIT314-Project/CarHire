@@ -2,6 +2,12 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
+use App\CreditCheckBlackList;
+use App\IdentityCheckBlackList;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -25,8 +31,21 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected function redirectTo()
+    {
+        $licence = DB::table('users')->where('id', Auth::id())->value('licenceNum');
+        $creditCheck = DB::table('CreditCheckBlackList')->where('licence', $licence)->value('licence');
+        $identityCheck = DB::table('IdentityCheckBlackList')->where('licence', $licence)->value('licence');
+        //$blacklistLicence = CreditCheckBlackList::find( 'licence', $userLicence);
+        if($creditCheck != null || $identityCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorry';
+        }
+        return '/';
 
+    }
     /**
      * Create a new controller instance.
      *

@@ -25,4 +25,9 @@ class PageController extends Controller {
 		return view('Pages.search');
 	}
 
+	public function getSorry(){
+		return view('Pages.sorry');
+	}
+
+
 }

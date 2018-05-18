@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -78,7 +79,21 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        if (rand(1,50) == 1)
+        {
+            DB::table('CreditCheckBlackList')->insert([
+                'licence' => $data['licenceNum'],
+            ]);
+            redirect()->route('cars.index');
+
+        }
+        elseif (rand(1,50) == 1)
+        {
+            DB::table('IdentityCheckBlackList')->insert([
+                'licence' => $data['licenceNum'],
+            ]);
+        }
+        else return User::create([
             'firstName' => $data['firstName'],
             'lastName' => $data['lastName'],
             'email' => $data['email'],

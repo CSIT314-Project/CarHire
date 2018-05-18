@@ -73,9 +73,7 @@
 						<br>
 						<h5>{{$cars->city}}</h5>	
 						<br>
-						
-					Tweet</a>
-				</div>
+										</div>
 			</div>
 		</div>
 	</div>
