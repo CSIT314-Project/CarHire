@@ -27,6 +27,13 @@ class CreateCarsTable extends Migration
             $table->float('rate');
             $table->string('description',2000)->nullable();
             $table->string('city');
+            $table->integer('mon');
+            $table->integer('tue');
+            $table->integer('wed');
+            $table->integer('thu');
+            $table->integer('fri');
+            $table->integer('sat');
+            $table->integer('sun');
         });
     }
 

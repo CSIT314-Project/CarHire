@@ -31,6 +31,7 @@ Route::resource('garage', 'addCarController'); 	// Controller route for adding n
 Route::resource('cars', 'SearchController');
 Route::resource('messages', 'MessageController');
 Route::resource('transactions', 'TransactionsController');
+Route::post('transactions/{update}', 'TransactionsController@update');
 
 Route::post('messages/{update}', 'MessageController@update');
 

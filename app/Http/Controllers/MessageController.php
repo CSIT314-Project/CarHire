@@ -102,6 +102,9 @@ class MessageController extends Controller
         ->orderBy('created_at')
         ->get();
 
+        $fName = DB::table('users')->where('id',$id)->value('firstName');
+        $lName = DB::table('users')->where('id',$id)->value('lastName');
+        $data['name'] = $fName . ' ' . $lName;
         $data['fromID'] = $id;
 
         return view('messages.show')->withData($data);

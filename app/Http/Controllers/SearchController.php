@@ -116,6 +116,14 @@ class SearchController extends Controller
         $makeOperator = '=';
         $transmissionOperator = '=';
         $cityOperator = '=';
+        $monOperator = '=';
+        $tueOperator = '=';
+        $wedOperator = '=';
+        $thuOperator = '=';
+        $friOperator = '=';
+        $satOperator = '=';
+        $sunOperator = '=';
+
 
         if ($request->odometerMax == 'any')
         {
@@ -134,6 +142,7 @@ class SearchController extends Controller
             $cityOperator = '<>';
         }
 
+       // $data['test']= $request->mon;
         $data['car'] = DB::table('cars')
         ->where([
             ['year', '>=', $request->minYear],
@@ -146,9 +155,57 @@ class SearchController extends Controller
             ['transmission', $transmissionOperator, $data['transmissionArray'][$request->transmission]],
             ['city', $cityOperator, $data['cityArray'][$request->city]],
         ])
-        ->orderBy($sortColumn, $sortDirection)
-        ->get();
+        ->orderBy($sortColumn, $sortDirection);
 
+        $query = collect();
+
+        if ($request->mon == '1')
+        {
+            $initialQuery = $data['car']->where('mon','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+        if ($request->tue === '1')
+        {
+            $initialQuery = $data['car']->where('tue','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+        if ($request->wed === '1')
+        {
+            $initialQuery = $data['car']->where('wed','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+
+        if ($request->thu === '1')
+        {
+            $initialQuery = $data['car']->where('thu','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+
+        if ($request->fri === '1')
+        {  
+            $initialQuery = $data['car']->where('fri','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+        if ($request->sat === '1')
+        {
+            $initialQuery = $data['car']->where('sat','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+        if ($request->sun === '1')
+        {
+            $initialQuery = $data['car']->where('sun','=','1')->get();
+            $query = $query->concat($initialQuery);
+        }
+
+            $data['car'] = $query;
+;
+       $data['test'] = $request->mon;
+        //$data['car'] = $data['car']->get();
         $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control', 'onchange' => 'submit(this)'));
 
 

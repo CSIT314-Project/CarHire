@@ -8,5 +8,5 @@ class Cars extends Model
 {
     //
 	//    protected $table = 'cars';
-    protected $fillable = ['make','model','year','odometer','type','photo','transmission','owner','rate','description','city']; 
+    protected $fillable = ['make','model','year','odometer','type','photo','transmission','owner','rate','description','city','mon','tue','wed','thu','fri','sat','sun']; 
 }

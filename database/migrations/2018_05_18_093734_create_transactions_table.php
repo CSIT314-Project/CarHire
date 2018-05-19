@@ -20,8 +20,8 @@ class CreateTransactionsTable extends Migration
             $table->integer('ownerID');
             $table->integer('renteeID');
             $table->integer('hours');
-            $table->integer('ownerRating');
-            $table->integer('renteeRating');
+            $table->integer('ownerRating')->nullable();
+            $table->integer('renteeRating')->nullable();
             $table->float('cost');
         });
     }

@@ -59,6 +59,18 @@ class TransactionsController extends Controller
     public function store(Request $request)
     {
         //
+        $transaction = new Transactions;
+        $transaction->carID = $request->carID;
+        $transaction->ownerID = $request->ownerID;
+        $transaction->renteeID = Auth::id();
+        $transaction->hours = $request->hours;
+        $rate = DB::table('cars')->where('id', $request->carID)->value('rate');
+        $transaction->cost = $request->hours * $rate;
+
+        $transaction->save();
+
+                return redirect()->route('transactions.index');
+
     }
 
     /**
@@ -93,6 +105,14 @@ class TransactionsController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $transaction = Transactions::find($id);
+        if($request->renteeRating!=null)
+            $transaction->renteeRating = $request->renteeRating;
+        if($request->ownerRating!=null)
+            $transaction->ownerRating = $request->ownerRating;
+
+        $transaction->save();
+
     }
 
     /**

@@ -50,6 +50,38 @@
 						<small>City:</small>
 						<br>
 						<h5>{{$cars->city}}</h5>
+
+						<small>Available on:</small>
+						<br>
+						<h5>
+							@if($cars->mon)
+							Mon
+							@endif
+							
+							@if($cars->tue)
+							Tue
+							@endif
+
+							@if($cars->wed)
+							Wed
+							@endif
+
+							@if($cars->thu)
+							Thu
+							@endif
+
+							@if($cars->fri)
+							Fri
+							@endif
+
+							@if($cars->sat)
+							Sat
+							@endif
+
+							@if($cars->sun)
+							Sun
+							@endif
+						</h5>
 						<br>	
 						<div> 
 							<a class="btn-lg btn-info "
@@ -107,7 +139,7 @@
 
 					<div class="form-group row">
 						<div class="col-md-4" style="text-align: left;">{{form::label('city', 'City: ')}}</div>
-						<div class="col-md-4">{{form::select('carType', [$data->cities], array('class' => 'form-control')) }}</div>
+						<div class="col-md-4">{{form::select('city', [$data->cities], array('class' => 'form-control')) }}</div>
 					</div>
 
 					<div class="form-group row">
@@ -124,6 +156,25 @@
 						{{form::label('rate', 'Rate/hour: ')}}*
 						{{form::number('rate', null, array('class' => 'form-control', 'placeholder' => 'e.g. $35')) }}
 						<small><sup>*</sup>5% insurance, 10% Rent and Ride commisioned will be taken from amount</small>
+					</div>
+
+					<div class="form-group row">
+						<div class="col-md-4" style="text-align: left;">{{form::label('Available', 'Available: ')}}<p><br>
+								
+								Monday: {{Form::checkbox('mon', '1', null, array('class' => 'form-control '))}}
+
+		Tuesday: {{Form::checkbox('tue', '1', null,array('class' => 'form-control'))}}
+
+		Wednesday: {{Form::checkbox('wed', '1', null,array('class' => 'form-control'))}}
+
+		Thursday: {{Form::checkbox('thu', '1', null,array('class' => 'form-control'))}}
+
+		Friday: {{Form::checkbox('fri', '1', null,array('class' => 'form-control'))}}
+
+		Saturday: {{Form::checkbox('sat', '1', null,array('class' => 'form-control'))}}
+
+		Sunday: {{Form::checkbox('sun', '1', null,array('class' => 'form-control'))}}
+						</div>
 					</div>
 
 					<div class="form-group row">

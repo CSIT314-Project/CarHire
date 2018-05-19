@@ -30,6 +30,13 @@ class DatabaseSeeder extends Seeder
                     'rate' => $data [9],
                     'description' => $data[10],
                     'city' => $data[11],
+                    'mon' => rand(0,1),
+                    'tue' => rand(0,1),
+                    'wed' => rand(0,1),
+                    'thu' => rand(0,1),
+                    'fri' => rand(0,1),
+                    'sat' => rand(0,1),
+                    'sun' => rand(0,1),
                 ]);
 
     		}
