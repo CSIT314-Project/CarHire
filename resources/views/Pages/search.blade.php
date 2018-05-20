@@ -7,9 +7,12 @@
 
 @section('search')
 <header></header>
+
 <div class="row">
 	<div class="col-md-4 offset-md-1" >
-		<h1>Search</h1>
+		<div class="card">
+			<div class="card-body">
+				Search
 
 		{!! Form::open(['route' => 'cars.store']) !!}
 
@@ -49,9 +52,10 @@
 
 		{{Form::submit('Search', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
 	</div>	<!-- md-4 div end -->
+				</div>
+		</div>
 
 	<div class="col-md-6">
-		<br>
 		<div align="right">
 			Sort By: {{Form::select('order', $data['orderArray'], null, array('onchange' => 'submit(this)'))}}
 			{!! Form::close() !!}
@@ -148,7 +152,7 @@
 								->count('renteeRating')
 							)
 						}}
-												<br>
+						<br>
 						<br>
 
 						@endif

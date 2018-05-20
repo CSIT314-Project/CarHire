@@ -3,48 +3,7 @@
 @section('Title','Dashboard')
 @include('Partials._navbar')
 @include('Partials._loginStyle')
-<style>
-.speech-bubble-right {
-	position: relative;
-	background: #28a745;
-	border-radius: .4em;
-}
 
-.speech-bubble-right:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #28a745;
-	border-bottom: 0;
-	border-right: 0;
-	margin-left: -10px;
-	margin-bottom: -20px;
-}
-.speech-bubble-left {
-	position: relative;
-	background: lightgrey;
-	border-radius: .4em;
-}
-
-.speech-bubble-left:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: lightgrey;
-	border-bottom: 0;
-	border-left: 0;
-	margin-left: -10px;
-	margin-bottom: -20px;
-}
-</style>
 @section('dashboard')
 <header>
 </header> 
