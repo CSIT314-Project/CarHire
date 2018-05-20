@@ -8,12 +8,11 @@
 <header></header>
 <center><h1>Settings</h1></center>
 <div class="row" style="text-align: center">
-	<div class="container"><br><br></div>
 	<div class="col-md-6 offset-md-3">
 		<h3>Edit my Account Details</h3>
-		<div class="card">
+		<div class="card text-white" style="background-color: rgba(0,0,0,0.60);">
 			<div class="card-header h3 font-weight-bold">{{ __('Edit Account') }}</div>
-		{!! Form::open(['route' => ['settings.update', Auth::id()],'class' => 'form-control' ]) !!}
+		{!! Form::open(['route' => ['settings.update', Auth::id()],'class' => 'form-control text-white', 'style' => 'background-color: rgba(0,0,0,0.60);' ]) !!}
 			
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Email:')}}

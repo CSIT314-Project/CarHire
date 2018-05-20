@@ -10,8 +10,8 @@
 
 <div class="row">
 	<div class="col-md-4 offset-md-1" >
-		<div class="card">
-			<div class="card-body">
+		<div class="card text-white" style="background-color: rgba(0,0,0,0.60);">
+			<div class="card-body" >
 				<h1>Search</h1>
 
 				{!! Form::open(['route' => 'cars.store']) !!}
@@ -36,7 +36,7 @@
 
 				<big>Availibility:</big><br>
 						<div class="form-group">
-
+	
 				Monday: {{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
 				
 				Tuesday: {{Form::checkbox('tue', '1', null,array('class' => 'offset-md-2'))}}<br>
@@ -64,7 +64,7 @@
 		</div>
 		@foreach($data['car'] as $cars)
 		<div class="container">
-			<div class="jumbotron">
+			<div class="jumbotron text-white" style="background-color: rgba(0,0,0,0.60);">
 				<div class="row">	
 					<div class="col-md-8">
 						<img src="{{ asset('images/'.$cars->photo) }}" style="width:100%; text-align: left;">

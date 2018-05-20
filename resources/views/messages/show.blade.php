@@ -27,7 +27,7 @@
 		@endforeach
 		
 
-		{!! Form::open(['route' => ['messages.update', $data['fromID']],'class' => 'form-control offset-md-2 col-md-8' ]) !!}
+		{!! Form::open(['route' => ['messages.update', $data['fromID']],'class' => 'form-control offset-md-2 col-md-8', 'style' => 'background-color: rgba(0,0,0,0.60);']) !!}
 		{{Form::textarea('sentMessage',null, array('class' => 'form-control', 'style' => 'background-color:#dbdbdb;height:10%;'))}}
 		<hr>
 		{{Form::submit('Send', array('class' => 'btn btn-success btn-lg btn-block form-control'))}}

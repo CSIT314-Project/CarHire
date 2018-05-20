@@ -14,7 +14,7 @@
     {!! Form::open(['route' => 'messages.store']) !!}
 
     @foreach($data['user'] as $user)	
-    <div class="jumbotron col-md-10 offset-md-1">
+    <div class="jumbotron col-md-10 offset-md-1 text-white" style="background-color: rgba(0,0,0,0.60);">
       From: {{$user->firstName . ' ' . $user->lastName}} <p class="text-right"></p>
       <button class='btn btn-info' name="chatID" value={{$user->id}}>Chat</button>
       @if(DB::table('transactions')
