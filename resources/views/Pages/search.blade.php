@@ -12,48 +12,50 @@
 	<div class="col-md-4 offset-md-1" >
 		<div class="card">
 			<div class="card-body">
-				Search
+				<h1>Search</h1>
 
-		{!! Form::open(['route' => 'cars.store']) !!}
+				{!! Form::open(['route' => 'cars.store']) !!}
 
-		<!--this will dynamically set the lowest and highest values for year-->
-		Year From:{{Form::selectRange('minYear', DB::table('cars')->min('year'), DB::table('cars')->max('year'), null, array('class' => 'form-control'))}}
-		Year To:{{Form::selectRange('maxYear', DB::table('cars')->min('year'), DB::table('cars')->max('year'), DB::table('cars')->max('year'), array('class' => 'form-control'))}}
+				<!--this will dynamically set the lowest and highest values for year-->
+				Year From:{{Form::selectRange('minYear', DB::table('cars')->min('year'), DB::table('cars')->max('year'), null, array('class' => 'form-control'))}}
+				Year To:{{Form::selectRange('maxYear', DB::table('cars')->min('year'), DB::table('cars')->max('year'), DB::table('cars')->max('year'), array('class' => 'form-control'))}}
 
-		Make:{{$data['makeForm']}}
+				Make:{{$data['makeForm']}}
 
-		Transmission: {{Form::select('transmission', $data['transmissionArray'], null, array('class' => 'form-control'))}}
+				Transmission: {{Form::select('transmission', $data['transmissionArray'], null, array('class' => 'form-control'))}}
 
-		Kilometres From:{{Form::select('odometerMin', [0=>0, 25000=>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
+				Kilometres From:{{Form::select('odometerMin', [0=>0, 25000=>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
 
-		Kilometres To:{{Form::select('odometerMax', ['any' => 'any', 25000 =>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
+				Kilometres To:{{Form::select('odometerMax', ['any' => 'any', 25000 =>25000,50000=>50000, 100000=>100000, 200000=>200000], null, array('class' => 'form-control'))}}
 
-		City:{{Form::select('city', $data['cityArray'], null, array('class' => 'form-control'))}}
+				City:{{Form::select('city', $data['cityArray'], null, array('class' => 'form-control'))}}
 
-		Rate From (per hour):{{Form::select('rateMin', [0=>0, 25=>25,50=>50, 75=>75, 100=>100], null, array('class' => 'form-control'))}}
+				Rate From (per hour):{{Form::select('rateMin', [0=>0, 25=>25,50=>50, 75=>75, 100=>100], null, array('class' => 'form-control'))}}
 
-		Rate To (per hour):{{Form::select('rateMax', [999999 => 'any', 25 =>25,50=>50, 75=>75, 100=>100], null, array('class' => 'form-control'))}}
+				Rate To (per hour):{{Form::select('rateMax', [999999 => 'any', 25 =>25,50=>50, 75=>75, 100=>100], null, array('class' => 'form-control'))}}
 
-		Availibility:<br>
-		Monday: {{Form::checkbox('mon', '1', null, array('class' => 'form-control'))}}
+				<big>Availibility:</big><br>
+						<div class="form-group">
 
-		Tuesday: {{Form::checkbox('tue', '1', null,array('class' => 'form-control'))}}
+				Monday: {{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
+				
+				Tuesday: {{Form::checkbox('tue', '1', null,array('class' => 'offset-md-2'))}}<br>
 
-		Wednesday: {{Form::checkbox('wed', '1', null,array('class' => 'form-control'))}}
+				Wednesday: {{Form::checkbox('wed', '1', null,array('class' => 'offset-md-2'))}}<br>
 
-		Thursday: {{Form::checkbox('thu', '1', null,array('class' => 'form-control'))}}
+				Thursday: {{Form::checkbox('thu', '1', null,array('class' => 'offset-md-2'))}}<br>
 
-		Friday: {{Form::checkbox('fri', '1', null,array('class' => 'form-control'))}}
+				Friday: {{Form::checkbox('fri', '1', null,array('class' => 'offset-md-2'))}}<br>
 
-		Saturday: {{Form::checkbox('sat', '1', null,array('class' => 'form-control'))}}
+				Saturday: {{Form::checkbox('sat', '1', null,array('class' => 'offset-md-2'))}}<br>
 
-		Sunday: {{Form::checkbox('sun', '1', null,array('class' => 'form-control'))}}
-		
-
-		{{Form::submit('Search', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
-	</div>	<!-- md-4 div end -->
+				Sunday: {{Form::checkbox('sun', '1', null,array('class' => 'offset-md-2'))}}<br>
 				</div>
+
+				{{Form::submit('Search', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
+			</div>	<!-- md-4 div end -->
 		</div>
+	</div>
 
 	<div class="col-md-6">
 		<div align="right">

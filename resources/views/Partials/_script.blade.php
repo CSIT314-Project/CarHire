@@ -63,12 +63,19 @@ header {
 	margin-left: -10px;
 	margin-bottom: -20px;
 }
-.footer {
+footer {
     position: fixed;
     height: 30px;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    color: white;
+}
+.footer {
+    position: relative;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
 }
 </style>
