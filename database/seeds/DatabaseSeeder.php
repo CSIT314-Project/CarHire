@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
     				'make' => $data [1],
     				'model' => $data [2],
     				'year' => $data [3],
-    				'photo' => $data [4],
+    				'photo' => rand(1,15) . '.jpg',
     				'transmission' => $data [5],
     				'odometer' => $data [6],
     				'owner' => $data [7],

@@ -121,6 +121,37 @@
 							Sun
 							@endif
 						</h5>
+						@if(DB::table('transactions')
+							->where('ownerID', '=', $cars->owner)
+							->sum('ownerRating') 
+							+ 
+							DB::table('transactions')
+							->where('renteeID', '=', $cars->owner)
+							->sum('renteeRating') != 0)
+							This users average rating is: 
+							{{          (DB::table('transactions')
+								->where('ownerID', '=', $cars->owner)
+								->sum('ownerRating') 
+								+ 
+								DB::table('transactions')
+								->where('renteeID', '=', $cars->owner)
+								->sum('renteeRating')
+							)
+							/
+							(
+								DB::table('transactions')
+								->where('ownerID', '=', $cars->owner)
+								->count('ownerRating') 
+								+ 
+								DB::table('transactions')
+								->where('renteeID', '=', $cars->owner)
+								->count('renteeRating')
+							)
+						}}
+												<br>
+						<br>
+
+						@endif
 
 						<a href="/messages/{{$cars->owner}}" class="btn btn-info">Message User</a>
 
@@ -147,7 +178,7 @@
 											<input type="hidden" name="ownerID" value={{$cars->owner}}>
 											<input type="hidden" name="carID" value={{$cars->id}}>
 
-		{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
+											{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
 
 											<hr>
 											{!! Form::close() !!}
@@ -156,7 +187,7 @@
 								</div><!--end modal dialog -->
 							</div><!-- end Modal form-->
 						</div> 
-	
+
 
 					</div>
 				</div>
