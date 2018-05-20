@@ -14,6 +14,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+        DB::table('CreditCheckBlackList')->insert([
+                        'licence' => 99999,
+                    ]);
+        DB::table('IdentityCheckBlackList')->insert([
+                        'licence' => 88888,
+                    ]);
     	if (($handle = fopen ( public_path () . '/MOCK_CAR_DATA.csv', 'r' )) !== FALSE) 
     	{
     		while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
