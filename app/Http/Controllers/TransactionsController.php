@@ -17,7 +17,7 @@ class TransactionsController extends Controller
     public function index()
     {
         //
-        
+
         if(Auth::check())
             {
 
@@ -36,9 +36,9 @@ class TransactionsController extends Controller
             {
                 return view('auth.login');
             }
-        
 
-    }
+
+        }
 
     /**
      * Show the form for creating a new resource.
@@ -59,6 +59,34 @@ class TransactionsController extends Controller
     public function store(Request $request)
     {
         //
+        $car = Cars::find($request->carID);
+
+        switch ($request->day)
+        {
+            case 'mon':
+            $car->mon = 0;
+            break;
+            case 'tue':
+            $car->tue = 0;
+            break;
+            case 'wed':
+            $car->wed = 0;
+            break;
+            case 'thu':
+            $car->thu = 0;
+            break;
+            case 'fri':
+            $car->fri = 0;
+            break;
+            case 'sat':
+            $car->sat = 0;
+            break;
+            case 'sun':
+            $car->sun = 0;
+            break;
+        }
+
+        $car->save();
         $transaction = new Transactions;
         $transaction->carID = $request->carID;
         $transaction->ownerID = $request->ownerID;
@@ -69,7 +97,7 @@ class TransactionsController extends Controller
 
         $transaction->save();
 
-                return redirect()->route('transactions.index');
+        return redirect()->route('transactions.index');
 
     }
 

@@ -143,7 +143,7 @@
 											Hours:
 											{{form::text('hours', null,array('class' => 'form-control', 'placeholder' => 'e.g. 4')) }}
 											Day:
-											{{form::select('day',  ['Monday'=>'Monday','Tuesday'=>'Tuesday','Wednesday'=>'Wednesday','Thursday'=>'Thursday','Friday'=>'Friday','Saturday'=>'Saturday','Sunday'=>'Sunday']) }}
+											{{form::select('day',  ['mon'=>'Monday','tue'=>'Tuesday','wed'=>'Wednesday','thu'=>'Thursday','fri'=>'Friday','sat'=>'Saturday','sun'=>'Sunday']) }}
 											<input type="hidden" name="ownerID" value={{$cars->owner}}>
 											<input type="hidden" name="carID" value={{$cars->id}}>
 
@@ -156,7 +156,7 @@
 								</div><!--end modal dialog -->
 							</div><!-- end Modal form-->
 						</div> 
-
+	
 
 					</div>
 				</div>

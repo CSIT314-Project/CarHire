@@ -255,6 +255,46 @@ class AddCarController extends Controller
     public function update(Request $request, $id)
     {
         //
+      $data = Cars::find($id);
+
+          $data->mon = '1';
+          $data->tue = '1';
+          $data->wed = '1';
+          $data->thu = '1';
+          $data->fri = '1';
+          $data->sat = '1';
+          $data->sun = '1';
+      if ($request->mon != '1')
+        {
+          $data->mon='0';
+        }
+        if ($request->tue != '1')
+        {
+          $data->tue='0';
+        }
+        if ($request->wed != '1')
+        {
+          $data->wed='0';
+        }
+        if ($request->thu != '1')
+        {
+          $data->thu='0';
+        }
+        if ($request->fri != '1')
+        {
+          $data->fri='0';
+        }
+        if ($request->sat != '1')
+        {
+          $data->sat='0';
+        }
+        if ($request->sun != '1')
+        {
+          $data->sun='0';
+        }
+
+        $data->save();
+      return redirect()->route('garage.index');
     }
 
     /**

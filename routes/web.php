@@ -26,6 +26,7 @@ Route::get('settings', 'PageController@getSettings')->middleware('auth');
 Route::resource('settings', 'SettingsController');
 Route::post('settings/{update}', 'SettingsController@update');
 Route::resource('garage', 'addCarController'); 	// Controller route for adding new cars 
+Route::post('garage/{update}', 'addCarController@update'); 
 //Route::post('garage', 'addCarController@destroy'); 	// Controller route for adding new cars 
 
 Route::resource('cars', 'SearchController');
