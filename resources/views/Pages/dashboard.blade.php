@@ -7,7 +7,7 @@
 @section('dashboard')
 <header>
 </header> 
-<center><img src="images\logo2.png" style=""></center>
+<center><img src="images\logo2.png" style="margin-left: auto; margin-right: auto;display: block;width: 50%"></center>
 <br>
 <div class="row">
 	<div class="col-md-12">
