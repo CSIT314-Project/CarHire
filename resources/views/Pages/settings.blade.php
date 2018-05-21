@@ -19,35 +19,10 @@
 				{{form::text('email', null, array('id' => 'email','class' => 'form-control', 'placeholder' => 'e.g. name@example.com')) }}
 			</div>
 
-			<div class="form-group row col-md-10 offset-md-1">
-				{{form::label('Licence Number:')}}
-				{{form::text('licenceNum', null,array('class' => 'form-control', 'placeholder' => 'e.g. 18374056')) }}
-			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Phone Number:')}}
 				{{form::number('phone', null, array('class' => 'form-control', 'placeholder' => 'e.g. 0412345678')) }}
-			</div>
-
-			<div class="form-group row col-md-10 offset-md-1">
-				{{form::label('BSB')}}
-				{{form::number('bsb', null, array('class' => 'form-control', 'placeholder' => 'e.g. 123456')) }}
-			</div>
-
-
-			<div class="form-group row col-md-10 offset-md-1">
-				{{form::label('Account Number')}}
-				{{form::number('acctNum', null,array('class' => 'form-control', 'placeholder' => 'e.g. 1234567891234')) }}
-			</div>
-
-			<div class="form-group row col-md-10 offset-md-1">
-				{{form::label('Card Number')}}
-				{{form::number('cardNum', null,array('class' => 'form-control', 'placeholder' => 'e.g. 1234567891234')) }}
-			</div>
-
-			<div class="form-group row col-md-10 offset-md-1">
-				{{form::label('CCV')}}
-				{{form::number('ccv', null,array('class' => 'form-control', 'placeholder' => 'e.g. 111')) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
