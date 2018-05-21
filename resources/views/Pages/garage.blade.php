@@ -13,7 +13,7 @@
 	<div class="col-md-4">
 		<div class="row" style="padding-left: 10%">
 			<h2>Add New Car</h2>
-			<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCarModal" style="position: absolute; right:20px;">Add</button>
+			<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCarModal" style="position: absolute; right:20px;">Add Car</button>
 		</div>
 	</div>
 	<div class="col-md-8" style='text-align: right;'>
@@ -92,159 +92,177 @@
 							{{form::submit('Remove',['class' => 'btn btn-danger btn-lg', 'type' => 'submit'])}}
 							{!! Form::close() !!}
 
-							<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#editCarModal" style="position: absolute; right:20px;">Edit Availibility</button>
+							<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#editCarModal" style="position: absolute; right:20px;">Edit Availability</button>
 							<div class="col-md-4"> 
 								<div id="editCarModal" class="modal fade" role="dialog">
 									<div class="modal-dialog">
 										<!-- Modal content-->
 										<div class="modal-content" style="background-color: rgba(0,0,0,0.60);text-align: left">
 											<div class="modal-header">
-												<h4 class="modal-title">Add New Car</h4>
+												<h4 class="modal-title">Edit Availability</h4>
 												<button type="button" class="close" data-dismiss="modal">&times;</button>
 											</div>
 											<div class="modal-body" style="margin: 2%;text-align: left;"">
 												{!! Form::open(['route' => ['garage.update',$cars->id]]) !!}
-												{{ Form::Label('Available', 'Available: ')}}<p><br>
-													<div class="form-group">
-														<div class="row">
-															<div class="col-md-3">
-																<p>Monday: <br>
-																	Tuesday: <br>
-																	Wednesday:<br>
-																	Thursday: <br>
-																	Friday: <br>
-																	Saturday: <br>
-																Sunday:</p> <br>
-															</div>
-															<div class="col-md-6" style="color: transparent;">
-																<p>.{{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
-
-																	.{{Form::checkbox('tue', '1', null,array('class' => ''))}}<br>
-
-																	.{{Form::checkbox('wed', '1', null,array('class' => ''))}}<br>
-
-																	.{{Form::checkbox('thu', '1', null,array('class' => ''))}}<br>
-
-																	.{{Form::checkbox('fri', '1', null,array('class' => ''))}}<br>
-
-																	.{{Form::checkbox('sat', '1', null,array('class' => ''))}}<br>
-
-																	.{{Form::checkbox('sun', '1', null,array('class' => ''))}}</p><br>
-																</div>
-															</div>
-
-															<input type="hidden" name="ownerID" value={{$cars->owner}}>
-															<input type="hidden" name="carID" value={{$cars->id}}>
-
-															{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
-
-															<hr>
-															{!! Form::close() !!}
+												<big>{{ Form::Label('Available', 'Available: ')}}<br></big>
+												<div class="form-group">
+													<div class="row">
+														<div class="col-md-3">
+															<p>Monday: <br>
+																Tuesday: <br>
+																Wednesday:<br>
+																Thursday: <br>
+																Friday: <br>
+																Saturday: <br>
+															Sunday:</p> <br>
 														</div>
-													</div> <!-- end modal content-->
-												</div><!--end modal dialog -->
-											</div><!-- end Modal form-->
-										</div> 
-									</div>
+														<div class="col-md-6" style="color: transparent;">
+															<p>.{{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
 
+																.{{Form::checkbox('tue', '1', null,array('class' => ''))}}<br>
+
+																.{{Form::checkbox('wed', '1', null,array('class' => ''))}}<br>
+
+																.{{Form::checkbox('thu', '1', null,array('class' => ''))}}<br>
+
+																.{{Form::checkbox('fri', '1', null,array('class' => ''))}}<br>
+
+																.{{Form::checkbox('sat', '1', null,array('class' => ''))}}<br>
+
+																.{{Form::checkbox('sun', '1', null,array('class' => ''))}}</p><br>
+															</div>
+														</div>
+
+														<input type="hidden" name="ownerID" value={{$cars->owner}}>
+														<input type="hidden" name="carID" value={{$cars->id}}>
+
+														{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
+
+														<hr>
+														{!! Form::close() !!}
+													</div>
+												</div> <!-- end modal content-->
+											</div><!--end modal dialog -->
+										</div><!-- end Modal form-->
+									</div> 
 								</div>
+
 							</div>
 						</div>
 					</div>
-					@endforeach
-				</div>	<!-- md-8 div end -->
-			</div>	<!-- row div end -->
+				</div>
+				@endforeach
+			</div>	<!-- md-8 div end -->
+		</div>	<!-- row div end -->
 
 
 
-			<div class="col-md-4"> 
-				<div id="addCarModal" class="modal fade" role="dialog">
-					<div class="modal-dialog">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<h4 class="modal-title">Add New Car</h4>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<div class="col-md-4" > 
+			<div id="addCarModal" class="modal fade" role="dialog" >
+				<div class="modal-dialog" >
+					<!-- Modal content-->
+					<div class="modal-content text-white" style="background-color: rgba(0,0,0,0.60);">
+						<div class="modal-header">
+							<h4 class="modal-title">Add New Car</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body" style="margin: 2%;">
+							{!! Form::open(['route' => 'garage.store', 'files' => 'true']) !!}
+							<div class="form-group row">
+								{{form::label('make', 'Make:')}}
+								{{form::text('make', null, array('class' => 'form-control', 'placeholder' => 'e.g. Honda')) }}
 							</div>
-							<div class="modal-body" style="margin: 2%;">
-								{!! Form::open(['route' => 'garage.store', 'files' => 'true']) !!}
-								<div class="form-group row">
-									{{form::label('make', 'Make:')}}
-									{{form::text('make', null, array('class' => 'form-control', 'placeholder' => 'e.g. Honda')) }}
+
+							<div class="form-group row">
+								{{form::label('model', 'Model:')}}
+								{{form::text('model', null,array('class' => 'form-control', 'placeholder' => 'e.g. CRX')) }}
+							</div>
+
+							<div class="form-group row">
+								{{form::label('year', 'Year:')}}
+								{{form::number('year', null, array('class' => 'form-control', 'placeholder' => 'e.g. 2001')) }}
+							</div>
+
+							<div class="form-group row">
+								{{form::label('odometer', 'Odometer: ')}}
+								{{form::number('odometer', null, array('class' => 'form-control', 'placeholder' => 'e.g. 35000')) }}
+							</div>
+
+							<div class="form-group row">
+								{{form::label('description', 'Description:')}}
+								{{form::textarea('description', null,array('class' => 'form-control', 'placeholder' => 'e.g. My car is great because...')) }}
+							</div>
+
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-3">
+										<p>City:<br>
+											Transmission:<br>
+										Type:</p> <br>
+									</div>
+									<div class="" style="color: transparent;">
+										<p>
+											.{{form::select('city', [$data->cities], array('class' => 'form-control')) }}<br>
+
+											.{{form::select('transmission',  ['Automatic'=>'Automatic','Manual'=>'Manual'], array('class' => 'form-control')) }}<br>
+
+											.{{form::select('carType', [ '4WD'=>'4WD', 'Convertible'=>'Convertible', 'Coupé'=>'Coupé', 'Sedan'=>'Sedan', 'Other'=> 'Other'], array('class' => 'form-control')) }}</p><br>
+										</div>
+									</div>
 								</div>
 
-								<div class="form-group row">
-									{{form::label('model', 'Model:')}}
-									{{form::text('model', null,array('class' => 'form-control', 'placeholder' => 'e.g. CRX')) }}
-								</div>
-
-								<div class="form-group row">
-									{{form::label('year', 'Year:')}}
-									{{form::number('year', null, array('class' => 'form-control', 'placeholder' => 'e.g. 2001')) }}
-								</div>
-
-								<div class="form-group row">
-									{{form::label('odometer', 'Odometer: ')}}
-									{{form::number('odometer', null, array('class' => 'form-control', 'placeholder' => 'e.g. 35000')) }}
-								</div>
 
 
-								<div class="form-group row">
-									{{form::label('description', 'Description:')}}
-									{{form::textarea('description', null,array('class' => 'form-control', 'placeholder' => 'e.g. My car is great because...')) }}
-								</div>
-
-								<div class="form-group row">
-									<div class="col-md-4" style="text-align: left;">{{form::label('city', 'City: ')}}</div>
-									<div class="col-md-4">{{form::select('city', [$data->cities], array('class' => 'form-control')) }}</div>
-								</div>
-
-								<div class="form-group row">
-									<div class="col-md-4" style="text-align: left;">{{form::label('transmission', 'Transmission: ')}}</div>
-									<div class="col-md-4">{{form::select('transmission',  ['Automatic'=>'Automatic','Manual'=>'Manual'], array('class' => 'form-control')) }}</div>
-								</div>
-
-								<div class="form-group row">
-									<div class="col-md-4" style="text-align: left;">{{form::label('carType', 'Type: ')}}</div>
-									<div class="col-md-4">{{form::select('carType', [ '4WD'=>'4WD', 'Convertible'=>'Convertible', 'Coupé'=>'Coupé', 'Sedan'=>'Sedan', 'Other'=> 'Other'], array('class' => 'form-control')) }}</div>
-								</div>
 
 								<div class="form-group row">
 									{{form::label('rate', 'Rate/hour: ')}}*
 									{{form::number('rate', null, array('class' => 'form-control', 'placeholder' => 'e.g. $35')) }}
 									<small><sup>*</sup>5% insurance, 10% Rent and Ride commisioned will be taken from amount</small>
 								</div>
+								<div class="form-group">
+									<div class="row">
+										<div class="col-md-3">
+											<p>Monday:<br>
+												Tuesday:<br>
+												Wednesday:<br>
+												Thursday:<br>
+												Friday:<br>
+												Saturday:<br>
+											Sunday:</p> <br>
+										</div>
+										<div class="" style="color: transparent;">
+											<p>.{{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
 
-								<div class="form-group row">
-									<div class="col-md-4" style="text-align: left;">{{form::label('Available', 'Available: ')}}<p><br>
+												.{{Form::checkbox('tue', '1', null,array('class' => ''))}}<br>
 
-										Monday: {{Form::checkbox('mon', '1', null, array('class' => 'form-control '))}}
+												.{{Form::checkbox('wed', '1', null,array('class' => ''))}}<br>
 
-										Tuesday: {{Form::checkbox('tue', '1', null,array('class' => 'form-control'))}}
+												.{{Form::checkbox('thu', '1', null,array('class' => ''))}}<br>
 
-										Wednesday: {{Form::checkbox('wed', '1', null,array('class' => 'form-control'))}}
+												.{{Form::checkbox('fri', '1', null,array('class' => ''))}}<br>
 
-										Thursday: {{Form::checkbox('thu', '1', null,array('class' => 'form-control'))}}
+												.{{Form::checkbox('sat', '1', null,array('class' => ''))}}<br>
 
-										Friday: {{Form::checkbox('fri', '1', null,array('class' => 'form-control'))}}
+												.{{Form::checkbox('sun', '1', null,array('class' => ''))}}</p><br>
+											</div>
+										</div>
 
-										Saturday: {{Form::checkbox('sat', '1', null,array('class' => 'form-control'))}}
 
-										Sunday: {{Form::checkbox('sun', '1', null,array('class' => 'form-control'))}}
 									</div>
-								</div>
 
-								<div class="form-group row">
-									<div class="col-md-4" style="text-align: left;">{{Form::label('carImage', 'Image:',['class' => 'control-label',  'style' => 'margin-right: 20px;'])}}</div>
-									<div class="col-md-4">{{Form::file('carImage')}}</div>
-								</div>		
-							</div>	<!--end of modal body -->
-							<div class="modal-footer">
-								{{form::submit('Add',['class' => 'btn btn-info btn-lg', 'type' => 'submit'])}}
-								{!! Form::close() !!}
-							</div>
-						</div> <!-- end modal content-->
-					</div><!--end modal dialog -->
-				</div><!-- end Modal form-->
-			</div> <!--end column div -->
-			@endsection
+									<div class="form-group row">
+										<div class="col-md-4" style="text-align: left;">{{Form::label('carImage', 'Image:',['class' => 'control-label',  'style' => 'margin-right: 20px;'])}}</div>
+										<div class="col-md-4">{{Form::file('carImage')}}</div>
+									</div>		
+								</div>	<!--end of modal body -->
+								<div class="modal-footer">
+									{{form::submit('Add',['class' => 'btn btn-info btn-lg', 'type' => 'submit'])}}
+									{!! Form::close() !!}
+								</div>
+							</div> <!-- end modal content-->
+						</div><!--end modal dialog -->
+					</div><!-- end Modal form-->
+				</div> <!--end column div -->
+			</div>
+		</div>
+		@endsection

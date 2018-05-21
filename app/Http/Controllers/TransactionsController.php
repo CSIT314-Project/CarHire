@@ -141,6 +141,8 @@ class TransactionsController extends Controller
 
         $transaction->save();
 
+        return redirect()->route('transactions.index');
+
     }
 
     /**
