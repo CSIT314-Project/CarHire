@@ -1,13 +1,13 @@
 @extends('main')
 
-@section('Title','Dashboard')
+@section('Title','Sorry')
 @include('Partials._navbar')
 @include('Partials._loginStyle')
 
 @section('dashboard')
 <header>
 </header> 
-<center><h1><strong>Welcome to Rent and Ride</strong></h1></center>
+<center><h1 class="text-white" style="background-color: rgba(0,0,0,0.60);"><strong>Welcome to Rent and Ride</strong></h1></center>
 <br>
 <div class="row">
 	<div class="col-md-12">

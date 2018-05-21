@@ -6,10 +6,9 @@
 
 @section('settings')
 <header></header>
-<center><h1>Settings</h1></center>
+<center><h1 class="text-white" style="background-color: rgba(0,0,0,0.60);">Settings</h1></center>
 <div class="row" style="text-align: center">
 	<div class="col-md-6 offset-md-3">
-		<h3>Edit my Account Details</h3>
 		<div class="card text-white" style="background-color: rgba(0,0,0,0.60);">
 			<div class="card-header h3 font-weight-bold">{{ __('Edit Account') }}</div>
 		{!! Form::open(['route' => ['settings.update', Auth::id()],'class' => 'form-control text-white', 'style' => 'background-color: rgba(0,0,0,0.60);' ]) !!}

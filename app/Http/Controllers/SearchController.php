@@ -155,59 +155,57 @@ class SearchController extends Controller
             ['transmission', $transmissionOperator, $data['transmissionArray'][$request->transmission]],
             ['city', $cityOperator, $data['cityArray'][$request->city]],
         ])
-        ->orderBy($sortColumn, $sortDirection);
+        ->orderBy($sortColumn, $sortDirection)->get();
 
-        $query = collect();
 
-        if ($request->mon == '1')
+        $query;
+        $finishedQuery = collect();
+        if ($request->mon === '1')
         {
-            $initialQuery = $data['car']->where('mon','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('mon','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
 
         if ($request->tue === '1')
         {
-            $initialQuery = $data['car']->where('tue','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('tue','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
 
         if ($request->wed === '1')
         {
-            $initialQuery = $data['car']->where('wed','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('wed','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
 
 
         if ($request->thu === '1')
         {
-            $initialQuery = $data['car']->where('thu','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('thu','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
-
 
         if ($request->fri === '1')
         {  
-            $initialQuery = $data['car']->where('fri','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('fri','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
 
         if ($request->sat === '1')
         {
-            $initialQuery = $data['car']->where('sat','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('sat','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
         if ($request->sun === '1')
         {
-            $initialQuery = $data['car']->where('sun','=','1')->get();
-            $query = $query->concat($initialQuery);
+            $query = $data['car']->where('sun','=','1');
+            $finishedQuery = $finishedQuery->concat($query);
         }
 
-            $data['car'] = $query;
-;
-       $data['test'] = $request->mon;
-        //$data['car'] = $data['car']->get();
-        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control', 'onchange' => 'submit(this)'));
+        $data['car'] = $finishedQuery->unique();
 
+        //$data['car'] = $data['car']->get();
+        $data['makeForm'] = Form::select('make', $data['makeArray'], null, array('class' => 'form-control'));
 
         return view('Pages.search')->withData($data);
 

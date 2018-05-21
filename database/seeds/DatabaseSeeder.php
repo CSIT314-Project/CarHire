@@ -15,122 +15,135 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
         DB::table('CreditCheckBlackList')->insert([
-                        'licence' => 99999,
-                    ]);
+            'updated_at' => Carbon::now(),
+            'created_at' => Carbon::now(),
+            'licence' => 99999,
+        ]);
         DB::table('IdentityCheckBlackList')->insert([
-                        'licence' => 88888,
-                    ]);
-    	if (($handle = fopen ( public_path () . '/MOCK_CAR_DATA.csv', 'r' )) !== FALSE) 
-    	{
-    		while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
-    		{
-    			DB::table('cars')->insert([
-    				'make' => $data [1],
-    				'model' => $data [2],
-    				'year' => $data [3],
-    				'photo' => rand(1,15) . '.jpg',
-    				'transmission' => $data [5],
-    				'odometer' => $data [6],
-    				'owner' => $data [7],
-                    'type' => $data [8],
-                    'rate' => $data [9],
-                    'description' => $data[10],
-                    'city' => $data[11],
-                    'mon' => rand(0,1),
-                    'tue' => rand(0,1),
-                    'wed' => rand(0,1),
-                    'thu' => rand(0,1),
-                    'fri' => rand(0,1),
-                    'sat' => rand(0,1),
-                    'sun' => rand(0,1),
-                ]);
-
-    		}
-    		fclose ( $handle );
-    	}
-
-    	if (($handle = fopen ( public_path () . '/MOCK_USER_DATA.csv', 'r' )) !== FALSE) 
-    	{
-    		while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
-    		{
-                if (rand(1,50) == 1)
-                {
-                    DB::table('CreditCheckBlackList')->insert([
-                        'id' => $data [0],
-                        'licence' => $data [5],
-                    ]);
-
-                }
-                elseif (rand(1,50) == 1)
-                {
-                    DB::table('IdentityCheckBlackList')->insert([
-                        'id' => $data [0],
-                        'licence' => $data [5],
-                    ]);
-                }
-
-                    DB::table('users')->insert([
-                        'firstName' => $data [1],
-                        'lastName' => $data [2],
-                        'email' => $data [3],
-                        'password' => Hash::make($data [4]),
-                        'licenceNum' => $data [5],
-                        'phone' => $data [6],
-                        'acctNum' => $data [7],
-                        'bsb' => $data [8],
-                        'cardNum' => $data [9],
-                        'ccv' => $data [10],
-                        'address' => $data [11],
-                        'city' => $data [12],
-                        'postCode' => $data [13],
-                        'state' => $data [14],
-                        'country' => $data [15],
-                    ]);
-
-
-            }
-            fclose ( $handle );
-        }
-
-        if (($handle = fopen ( public_path () . '/MOCK_MESSAGES_DATA.csv', 'r' )) !== FALSE) 
+            'updated_at' => Carbon::now(),
+            'created_at' => Carbon::now(),
+            'licence' => 88888,
+        ]);
+        
+        if (($handle = fopen ( public_path () . '/MOCK_CAR_DATA.csv', 'r' )) !== FALSE) 
         {
-            while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
-            {
-                DB::table('messages')->insert([
-                    'updated_at' => $data [1],
-                    'created_at' => $data [1],
-                    'to' => $data [2],
-                    'from' => $data [3],
-                    'message' => $data [4],
-                ]);
+          while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
+          {
+           DB::table('cars')->insert([
+            'updated_at' => Carbon::now(),
+            'created_at' => Carbon::now(),
+            'make' => $data [0],
+            'model' => $data [1],
+            'year' => $data [2],
+            'photo' => rand(1,15) . '.jpg',
+            'transmission' => $data [3],
+            'odometer' => $data [4],
+            'owner' => $data [5],
+            'type' => $data [6],
+            'rate' => $data [7],
+            'description' => $data[8],
+            'city' => $data[9],
+            'mon' => rand(0,1),
+            'tue' => rand(0,1),
+            'wed' => rand(0,1),
+            'thu' => rand(0,1),
+            'fri' => rand(0,1),
+            'sat' => rand(0,1),
+            'sun' => rand(0,1),
+        ]);
 
-            }
-            fclose ( $handle );
-        }
+       }
+       fclose ( $handle );
+   }
 
-        if (($handle = fopen ( public_path () . '/MOCK_TRANSACTION_DATA.csv', 'r' )) !== FALSE) 
+   if (($handle = fopen ( public_path () . '/MOCK_USER_DATA.csv', 'r' )) !== FALSE) 
+   {
+      while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
+      {
+        if (rand(1,50) == 1)
         {
-            while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
-            {
-                $table = DB::table('cars')->find($data[1]);
-                $cost = $data [3] * $table->rate;
-                $owner = $table->owner;
+            DB::table('CreditCheckBlackList')->insert([
+                'updated_at' => Carbon::now(),
+                'created_at' => Carbon::now(),
+                'id' => $data [15],
+                'licence' => $data [4],
+            ]);
 
-                DB::table('transactions')->insert([
-                    'updated_at' => Carbon::now(),
-                    'created_at' => Carbon::now(),
-                    'carID' => $data [1],
-                    'ownerID' => $owner,
-                    'renteeID' => $data [2],
-                    'hours' => $data [3],
-                    'ownerRating' => $data [4],
-                    'renteeRating' => $data [5],
-                    'cost' => $cost,
-                ]);
-
-            }
-            fclose ( $handle );
         }
-    	//DB::table('cars')->delete();
+        if (rand(1,50) == 1)
+        {
+            DB::table('IdentityCheckBlackList')->insert([
+                'updated_at' => Carbon::now(),
+                'created_at' => Carbon::now(),
+                'id' => $data [15],
+                'licence' => $data [4],
+            ]);
+        }
+
+        DB::table('users')->insert([
+            'updated_at' => Carbon::now(),
+            'created_at' => Carbon::now(),
+            'firstName' => $data [0],
+            'lastName' => $data [1],
+            'email' => $data [2],
+            'password' => Hash::make($data [3]),
+            'licenceNum' => $data [4],
+            'phone' => $data [5],
+            'acctNum' => $data [6],
+            'bsb' => $data [7],
+            'cardNum' => $data [8],
+            'ccv' => $data [9],
+            'address' => $data [10],
+            'city' => $data [11],
+            'postCode' => $data [12],
+            'state' => $data [13],
+            'country' => $data [14],
+        ]);
+
+
     }
+    fclose ( $handle );
+}
+
+if (($handle = fopen ( public_path () . '/MOCK_MESSAGES_DATA.csv', 'r' )) !== FALSE) 
+{
+    while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
+    {
+        DB::table('messages')->insert([
+            'updated_at' => $data [0],
+            'created_at' => $data [0],
+            'to' => $data [1],
+            'from' => $data [2],
+            'message' => $data [3],
+        ]);
+
+    }
+    fclose ( $handle );
+}
+
+if (($handle = fopen ( public_path () . '/MOCK_TRANSACTION_DATA.csv', 'r' )) !== FALSE) 
+{
+    while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 
+    {
+        $table = DB::table('cars')->find($data[0]);
+        $cost = $data [2] * $table->rate;
+        $owner = $table->owner;
+
+        DB::table('transactions')->insert([
+            'updated_at' => Carbon::now(),
+            'created_at' => Carbon::now(),
+            'carID' => $data [0],
+            'ownerID' => $owner,
+            'renteeID' => $data [1],
+            'hours' => $data [2],
+            'ownerRating' => $data [3],
+            'renteeRating' => $data [4],
+            'cost' => $cost,
+        ]);
+
+    }
+    fclose ( $handle );
+}
+    	//DB::table('cars')->delete();
+}
 }

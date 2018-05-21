@@ -1,22 +1,29 @@
 @extends('main')
 
 @section('Title','My Garage')
+@section('Garage','active')
+
 @include('Partials._navbar')
 @include('Partials._loginStyle')
 
 @section('garage')
 <header>
 </header> 
-<center><h1>My Garage</h1></center>
+<center><h1  class="text-white" style="background-color: rgba(0,0,0,0.60);">My Garage</h1></center>
 <br>
 <div class="row">	
-	<div class="col-md-4">
-		<div class="row" style="padding-left: 10%">
-			<h2>Add New Car</h2>
-			<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCarModal" style="position: absolute; right:20px;">Add Car</button>
-		</div>
+	<div class="col-md-12">
+		
 	</div>
-	<div class="col-md-8" style='text-align: right;'>
+	<div class="col-md-12" style='text-align: right;'>
+		<div class="row" style="text-align: center;">
+			<jumbatron class="offset-md-3 col-md-6 text-white" style="background-color: rgba(0,0,0,0.80);">
+				<h2>Add New Car</h2>
+				<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCarModal" style="">Add Car</button><br><br>
+			</jumbatron>
+		</div>
+		<br>
+
 		<!-- Display user cars here -->
 		@foreach($data as $cars)
 		<div class="container">

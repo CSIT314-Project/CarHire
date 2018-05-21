@@ -18,3 +18,5 @@ resources/views/main.blade.php
 composer.lock
 composer.lock
 composer.lock
+public/images/1ed-njw.png
+public/newfile.txt

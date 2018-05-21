@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('Title','Dashboard')
+@section('Title','Transactions')
 @include('Partials._navbar')
 @include('Partials._loginStyle')
 
