@@ -84,8 +84,6 @@ class RegisterController extends Controller
             DB::table('CreditCheckBlackList')->insert([
                 'licence' => $data['licenceNum'],
             ]);
-            redirect()->route('cars.index');
-
         }
         elseif (rand(1,50) == 1)
         {
