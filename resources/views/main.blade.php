@@ -13,6 +13,7 @@
 	@yield('search')  <!--call to the search page content-->
 	@yield('settings') <!--call to the settings page content-->
 	@yield('garage') <!--call to the garage page content-->
+	@yield('sorry')
 	
 	@include('Partials._footer')  <!--call to the footer content-->
 

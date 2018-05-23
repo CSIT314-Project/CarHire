@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 use Illuminate\Http\Request;
 use Form;
 use App\Cars;
@@ -130,7 +132,7 @@ class AddCarController extends Controller
         90 => 'Abbotsfield',
       );
       sort($cities);
-       return $cities;
+      return $cities;
     }
     /**
      * Store a newly created resource in storage.
@@ -140,7 +142,7 @@ class AddCarController extends Controller
      */
     public function store(Request $request)
     {
-        //Validate the data 
+        // Validate the data 
       $this->validate($request, array(
         'make' => 'required|max:255',
         'model' => 'required|max:255',
@@ -148,8 +150,25 @@ class AddCarController extends Controller
         'odometer' => 'required',
         'transmission' => 'required',
         'carType' => 'required',
+        'rego' => 'required'
       ));
 
+      $blacklist = DB::table('rego_black_lists')->get();
+
+      $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+      fwrite($myfile, 'Start');
+
+      foreach ($blacklist as $list) 
+      {
+                  fwrite($myfile, '|list ' . $list->rego . ' request ' . $request->rego);
+
+        if($list->rego === $request->rego)
+        {
+          return redirect('garage')->with('status', 'Unfortunately this car has failed a registration check.');
+        }
+      }
+
+      fclose($myfile);
       $city = $this->getCities();
       $city = $city[$request->city];
         //Store in the database 
@@ -257,43 +276,43 @@ class AddCarController extends Controller
         //
       $data = Cars::find($id);
 
-          $data->mon = '1';
-          $data->tue = '1';
-          $data->wed = '1';
-          $data->thu = '1';
-          $data->fri = '1';
-          $data->sat = '1';
-          $data->sun = '1';
+      $data->mon = '1';
+      $data->tue = '1';
+      $data->wed = '1';
+      $data->thu = '1';
+      $data->fri = '1';
+      $data->sat = '1';
+      $data->sun = '1';
       if ($request->mon != '1')
-        {
-          $data->mon='0';
-        }
-        if ($request->tue != '1')
-        {
-          $data->tue='0';
-        }
-        if ($request->wed != '1')
-        {
-          $data->wed='0';
-        }
-        if ($request->thu != '1')
-        {
-          $data->thu='0';
-        }
-        if ($request->fri != '1')
-        {
-          $data->fri='0';
-        }
-        if ($request->sat != '1')
-        {
-          $data->sat='0';
-        }
-        if ($request->sun != '1')
-        {
-          $data->sun='0';
-        }
+      {
+        $data->mon='0';
+      }
+      if ($request->tue != '1')
+      {
+        $data->tue='0';
+      }
+      if ($request->wed != '1')
+      {
+        $data->wed='0';
+      }
+      if ($request->thu != '1')
+      {
+        $data->thu='0';
+      }
+      if ($request->fri != '1')
+      {
+        $data->fri='0';
+      }
+      if ($request->sat != '1')
+      {
+        $data->sat='0';
+      }
+      if ($request->sun != '1')
+      {
+        $data->sun='0';
+      }
 
-        $data->save();
+      $data->save();
       return redirect()->route('garage.index');
     }
 

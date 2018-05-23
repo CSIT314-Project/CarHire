@@ -35,6 +35,8 @@ class MessageController extends Controller
                 ->orWhere('to', '=', Auth::user()->id)
                 ->union($query1)
                 ->get();
+                
+                $data['fromID'] = $data['fromID']->sortBy('updated_at');
 
                 $data['user'] = array();
                 foreach($data['fromID'] as $id)
@@ -43,10 +45,15 @@ class MessageController extends Controller
                     ->where('id', '=', $id->from)
                     ->first();
 
+                    $user->updated_at = DB::table('messages')
+                    ->where('to', '=', Auth::user()->id)
+                    ->orWhere('to', '=', $id->from)
+                    ->max('updated_at');
+
                     array_push($data['user'], $user);
-
                 }
-
+                $data['user'] = collect($data['user']);
+                $data['user'] = $data['user']->sortByDesc('updated_at');
                 //$data['messages'] = DB::table('messages')->
 
             }

@@ -33,15 +33,30 @@ class LoginController extends Controller
      */
     protected function redirectTo()
     {
+
         $licence = DB::table('users')->where('id', Auth::id())->value('licenceNum');
         $creditCheck = DB::table('CreditCheckBlackList')->where('licence', $licence)->value('licence');
         $identityCheck = DB::table('IdentityCheckBlackList')->where('licence', $licence)->value('licence');
+
+        $data = collect($licence, $creditCheck);
         //$blacklistLicence = CreditCheckBlackList::find( 'licence', $userLicence);
-        if($creditCheck != null || $identityCheck != null)
+        if($creditCheck != null && $identityCheck != null)
         {
             Auth::logout();
             //return redirect()->route('messages.index');
             return '/sorry';
+        }
+        if($creditCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorryCredit';
+        }
+        if($identityCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorryIdentity';
         }
         return '/';
 

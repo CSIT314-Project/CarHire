@@ -36,33 +36,33 @@
 				Rate To (per hour):{{Form::select('rateMax', [999999 => 'any', 25 =>25,50=>50, 75=>75, 100=>100], null, array('class' => 'form-control'))}}
 
 				<big>Availibility:</big><br>
-					<div class="row">
-						<div class="col-md-4">
-							<p>Monday: <br>
-								Tuesday: <br>
-								Wednesday:<br>
-								Thursday: <br>
-								Friday: <br>
-								Saturday: <br>
-							Sunday:</p> <br>
+				<div class="row">
+					<div class="col-md-4">
+						<p>Monday: <br>
+							Tuesday: <br>
+							Wednesday:<br>
+							Thursday: <br>
+							Friday: <br>
+							Saturday: <br>
+						Sunday:</p> <br>
+					</div>
+					<div class="col-md-6" style="color: transparent;">
+						<p>
+							.{{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
+
+							.{{Form::checkbox('tue', '1', null,array('class' => ''))}}<br>
+
+							.{{Form::checkbox('wed', '1', null,array('class' => ''))}}<br>
+
+							.{{Form::checkbox('thu', '1', null,array('class' => ''))}}<br>
+
+							.{{Form::checkbox('fri', '1', null,array('class' => ''))}}<br>
+
+							.{{Form::checkbox('sat', '1', null,array('class' => ''))}}<br>
+
+							.{{Form::checkbox('sun', '1', null,array('class' => ''))}}</p><br>
 						</div>
-						<div class="col-md-6" style="color: transparent;">
-							<p>
-								.{{Form::checkbox('mon', '1', null, array('class' => '', 'style' => ''))}}<br>
-
-								.{{Form::checkbox('tue', '1', null,array('class' => ''))}}<br>
-
-								.{{Form::checkbox('wed', '1', null,array('class' => ''))}}<br>
-
-								.{{Form::checkbox('thu', '1', null,array('class' => ''))}}<br>
-
-								.{{Form::checkbox('fri', '1', null,array('class' => ''))}}<br>
-
-								.{{Form::checkbox('sat', '1', null,array('class' => ''))}}<br>
-
-								.{{Form::checkbox('sun', '1', null,array('class' => ''))}}</p><br>
-							</div>
-						</div>
+					</div>
 
 
 
@@ -186,15 +186,15 @@
 										<!-- Modal content-->
 										<div class="modal-content" style="background-color: rgba(0,0,0,0.60);text-align: left">
 											<div class="modal-header">
-												<h4 class="modal-title">Add New Car</h4>
+												<h4 class="modal-title">Rent</h4>
 												<button type="button" class="close" data-dismiss="modal">&times;</button>
 											</div>
 											<div class="modal-body" style="margin: 2%">
-												{!! Form::open(['route' => 'transactions.store']) !!}
+												{!! Form::open(['route' => 'transactions.store','onsubmit' => 'return validateForm()', 'name' => 'rentForm']) !!}
 												Hours:
 												{{form::text('hours', null,array('class' => 'form-control', 'placeholder' => 'e.g. 4')) }}
 												Day:
-												{{form::select('day',  ['mon'=>'Monday','tue'=>'Tuesday','wed'=>'Wednesday','thu'=>'Thursday','fri'=>'Friday','sat'=>'Saturday','sun'=>'Sunday'], null, array('class' => 'form-control')) }}
+												{{form::select('day',  ['mon'=>'Monday','tue'=>'Tuesday','wed'=>'Wednesday','thu'=>'Thursday','fri'=>'Friday','sat'=>'Saturday','sun'=>'Sunday'], null, array('class' => 'form-control', 'name' => 'day')) }}
 												<input type="hidden" name="ownerID" value={{$cars->owner}}>
 												<input type="hidden" name="carID" value={{$cars->id}}>
 

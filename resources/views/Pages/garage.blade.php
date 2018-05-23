@@ -12,9 +12,12 @@
 <center><h1  class="text-white" style="background-color: rgba(0,0,0,0.60);">My Garage</h1></center>
 <br>
 <div class="row">	
-	<div class="col-md-12">
-		
-	</div>
+		@if (session('status'))
+		<div class="alert alert-danger col-md-4 offset-md-4">
+			{{ session('status') }}
+		</div>
+		@endif
+
 	<div class="col-md-12" style='text-align: right;'>
 		<div class="row" style="text-align: center;">
 			<jumbatron class="offset-md-3 col-md-6 text-white" style="background-color: rgba(0,0,0,0.80);">
@@ -193,6 +196,11 @@
 							<div class="form-group row">
 								{{form::label('odometer', 'Odometer: ')}}
 								{{form::number('odometer', null, array('class' => 'form-control', 'placeholder' => 'e.g. 35000')) }}
+							</div>
+
+							<div class="form-group row">
+								{{form::label('rego', 'Registration Number: ')}}
+								{{form::text('rego', null, array('class' => 'form-control', 'placeholder' => 'e.g. XYZ123')) }}
 							</div>
 
 							<div class="form-group row">

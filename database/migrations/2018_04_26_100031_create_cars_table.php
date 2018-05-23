@@ -33,7 +33,9 @@ class CreateCarsTable extends Migration
             $table->integer('thu');
             $table->integer('fri');
             $table->integer('sat');
-            $table->integer('sun');
+            $table->integer('sun');            
+            $table->string('rego')->nullable();
+
         });
     }
 

@@ -11,7 +11,7 @@
 	<div class="col-md-6 offset-md-3">
 		<div class="card text-white" style="background-color: rgba(0,0,0,0.60);">
 			<div class="card-header h3 font-weight-bold">{{ __('Edit Account') }}</div>
-		{!! Form::open(['route' => ['settings.update', Auth::id()],'class' => 'form-control text-white', 'style' => 'background-color: rgba(0,0,0,0.60);' ]) !!}
+			{!! Form::open(['route' => ['settings.update', Auth::id()],'class' => 'form-control text-white', 'style' => 'background-color: rgba(0,0,0,0.60);' ]) !!}
 			
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Email:')}}
@@ -51,7 +51,7 @@
 			{{Form::submit('Update Account', array('class' => 'btn btn-info'))}}
 
 			{!! Form::close() !!} 
-<hr>
+			<hr>
 			{!! Form::open(['route' => 'settings.store']) !!}
 			{{Form::submit('Delete Account', array('class' => 'btn btn-danger'))}}
 			{!! Form::close() !!} 

@@ -24,7 +24,22 @@ class DatabaseSeeder extends Seeder
             'created_at' => Carbon::now(),
             'licence' => 88888,
         ]);
+        DB::table('rego_black_lists')->insert([
+                'rego' => 'AAA111',
+                'updated_at' => Carbon::now(),
+                'created_at' => Carbon::now(),
+            ]);
         
+        for($x = 0; $x<100; $x++)
+        {
+            $random_string = chr(rand(65,90)) . chr(rand(65,90)) . chr(rand(65,90)) . rand(0,9) . rand(0,9) . rand(0,9);
+            DB::table('rego_black_lists')->insert([
+                'rego' => $random_string,
+                'updated_at' => Carbon::now(),
+                'created_at' => Carbon::now(),
+            ]);
+        }
+
         if (($handle = fopen ( public_path () . '/MOCK_CAR_DATA.csv', 'r' )) !== FALSE) 
         {
           while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) 

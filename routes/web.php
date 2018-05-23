@@ -16,7 +16,9 @@ Route::get('/', 'PageController@getIndex');
 Route::get('register', 'PageController@getRegister');
 Route::get('login', 'PageController@getLogin');
 Route::get('dashboard', 'PageController@getDasboard');
-Route::get('sorry', 'PageController@getSorry')->name('home');
+Route::get('sorry', 'PageController@getSorry')->name('sorry');
+Route::get('sorryCredit', 'PageController@getSorryCredit')->name('sorry');
+Route::get('sorryIdentity', 'PageController@getSorryIdentity')->name('sorry');
 
 
 Route::get('search', 'SearchController@index');

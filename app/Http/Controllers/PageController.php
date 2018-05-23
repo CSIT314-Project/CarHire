@@ -28,6 +28,12 @@ class PageController extends Controller {
 	public function getSorry(){
 		return view('Pages.sorry');
 	}
+	public function getSorryCredit(){
+		return view('Pages.sorryCredit');
+	}
+	public function getSorryIdentity(){
+		return view('Pages.sorryIdentity');
+	}
 
 
 }

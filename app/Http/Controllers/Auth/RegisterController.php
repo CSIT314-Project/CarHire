@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Support\Facades\Auth;
+
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -29,7 +31,36 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected function redirectTo()
+    {
+
+        $licence = DB::table('users')->where('id', Auth::id())->value('licenceNum');
+        $creditCheck = DB::table('CreditCheckBlackList')->where('licence', $licence)->value('licence');
+        $identityCheck = DB::table('IdentityCheckBlackList')->where('licence', $licence)->value('licence');
+
+        $data = collect($licence, $creditCheck);
+        //$blacklistLicence = CreditCheckBlackList::find( 'licence', $userLicence);
+        if($creditCheck != null && $identityCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorry';
+        }
+        if($creditCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorryCredit';
+        }
+        if($identityCheck != null)
+        {
+            Auth::logout();
+            //return redirect()->route('messages.index');
+            return '/sorryIdentity';
+        }
+        return '/';
+
+    }
 
     /**
      * Create a new controller instance.

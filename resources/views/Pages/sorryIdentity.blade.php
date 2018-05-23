@@ -19,7 +19,7 @@
 				<div class="card text-white bg-danger" style="max-width: 18rem;">
 					<div class="card-body">
 						<h5 class="card-title">Sorry</h5>
-						<p class="card-text">Unfortunately you have failed our identity and credit check, please contact us if you believe this is in err. </p>
+						<p class="card-text">Unfortunately you have failed our identity check, please contact us if you believe this is in err. </p>
 					</div>
 				</div>
 			</div>
