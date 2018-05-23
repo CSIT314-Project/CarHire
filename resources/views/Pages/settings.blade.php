@@ -15,38 +15,38 @@
 			
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Email:')}}
-				{{form::text('email', null, array('id' => 'email','class' => 'form-control', 'placeholder' => 'e.g. name@example.com')) }}
+				{{form::text('email', null, array('id' => 'email','class' => 'form-control', 'placeholder' => $data->email)) }}
 			</div>
 
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Phone Number:')}}
-				{{form::number('phone', null, array('class' => 'form-control', 'placeholder' => 'e.g. 0412345678')) }}
+				{{form::number('phone', null, array('class' => 'form-control', 'placeholder' => $data->phone)) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Address')}}
-				{{form::text('address', null,array('class' => 'form-control', 'placeholder' => 'e.g. 142 Wallaby Way')) }}
+				{{form::text('address', null,array('class' => 'form-control', 'placeholder' => $data->address)) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('City')}}
-				{{form::text('city', null,array('class' => 'form-control', 'placeholder' => 'e.g. Sydney')) }}
+				{{form::text('city', null,array('class' => 'form-control', 'placeholder' => $data->city)) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Postcode')}}
-				{{form::number('postcode', null,array('class' => 'form-control', 'placeholder' => 'e.g. 2000')) }}
+				{{form::number('postcode', null,array('class' => 'form-control', 'placeholder' => $data->postCode)) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('State')}}
-				{{form::text('state', null,array('class' => 'form-control', 'placeholder' => 'e.g. NSW')) }}
+				{{form::text('state', null,array('class' => 'form-control', 'placeholder' => $data->state)) }}
 			</div>
 
 			<div class="form-group row col-md-10 offset-md-1">
 				{{form::label('Country')}}
-				{{form::text('country', null,array('class' => 'form-control', 'placeholder' => 'e.g. Australia')) }}
+				{{form::text('country', null,array('class' => 'form-control', 'placeholder' => $data->country)) }}
 			</div>
 			{{Form::submit('Update Account', array('class' => 'btn btn-info'))}}
 

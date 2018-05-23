@@ -20,7 +20,9 @@ class SettingsController extends Controller
     public function index()
     {
         //
-        return view('Pages.settings');
+              $data = User::find(Auth::id());
+
+        return view('Pages.settings')->withData($data);
     }
 
     /**
