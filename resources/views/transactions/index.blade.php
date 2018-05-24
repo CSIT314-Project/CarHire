@@ -48,7 +48,7 @@
      You received a rating of {{$transaction->ownerRating}} and gave a rating of {{$transaction->renteeRating}}
      @if($transaction->renteeRating==null)
      {!! Form::open(['route' => ['transactions.update', $transaction->id],'class' => 'form-control text-white', 'style' => 'background-color: rgba(0,0,0,0.60)']) !!}
-     Rate Rentee: {{Form::select('renteeRating', ['1'=>'1','2'=>'2','3'=>'3','4'=>'4','5'=>'5'], null, array('onchange' => 'submit(this)'))}}
+     Rate Rentee: {{Form::select('renteeRating', ['---'=>'---','1'=>'1','2'=>'2','3'=>'3','4'=>'4','5'=>'5'], null, array('onchange' => 'submit(this)'))}}
 
      {!! Form::close() !!}
      @endif

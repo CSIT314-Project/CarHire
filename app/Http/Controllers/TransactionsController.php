@@ -59,6 +59,12 @@ class TransactionsController extends Controller
     public function store(Request $request)
     {
         //
+        $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+        $txt = $request->carID;
+        fwrite($myfile, $txt);
+
+        fclose($myfile);
+
         $car = Cars::find($request->carID);
 
         switch ($request->day)
@@ -85,8 +91,8 @@ class TransactionsController extends Controller
             $car->sun = 0;
             break;
         }
-
         $car->save();
+
         $transaction = new Transactions;
         $transaction->carID = $request->carID;
         $transaction->ownerID = $request->ownerID;

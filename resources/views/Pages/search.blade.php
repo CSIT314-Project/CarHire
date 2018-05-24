@@ -10,6 +10,11 @@
 <header></header>
 
 <div class="row">
+			@if (session('status'))
+		<div class="alert alert-danger col-md-4 offset-md-4">
+			{{ session('status') }}
+		</div>
+		@endif
 	<div class="col-md-4 offset-md-1" >
 		<div class="card text-white" style="background-color: rgba(0,0,0,0.60);">
 			<div class="card-body" >
@@ -77,6 +82,33 @@
 				{!! Form::close() !!}
 			</div>
 			@foreach($data['car'] as $cars)
+			<div class="col-md-4" > 
+				<div id="addCarModal" class="modal fade" role="dialog" >
+					<div class="modal-dialog" >
+						<!-- Modal content-->
+						<div class="modal-content" style="background-color: rgba(0,0,0,0.60);text-align: left">
+							<div class="modal-header">
+								<h4 class="modal-title">Rent</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body" style="margin: 2%">
+								{!! Form::open(['route' => 'transactions.store','onsubmit' => 'return validateForm()', 'name' => 'rentForm']) !!}
+								Hours:
+								{{form::text('hours', null,array('class' => 'form-control', 'placeholder' => 'e.g. 4')) }}
+								Day:
+								{{form::select('day',  ['mon'=>'Monday','tue'=>'Tuesday','wed'=>'Wednesday','thu'=>'Thursday','fri'=>'Friday','sat'=>'Saturday','sun'=>'Sunday'], null, array('class' => 'form-control', 'name' => 'day')) }}
+								<input type="hidden" name="ownerID" value={{$cars->owner}}>
+								<input type="hidden" name="carID" value={{$cars->id}}>
+
+								{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
+
+								<hr>
+								{!! Form::close() !!}
+							</div>
+						</div> <!-- end modal content-->
+					</div><!--end modal dialog -->
+				</div><!-- end Modal form-->
+			</div> 
 			<div class="container">
 				<div class="jumbotron text-white" style="background-color: rgba(0,0,0,0.60);">
 					<div class="row">	
@@ -180,33 +212,7 @@
 							<br>
 
 							<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCarModal">Rent</button>
-							<div class="col-md-4" > 
-								<div id="addCarModal" class="modal fade" role="dialog" >
-									<div class="modal-dialog" >
-										<!-- Modal content-->
-										<div class="modal-content" style="background-color: rgba(0,0,0,0.60);text-align: left">
-											<div class="modal-header">
-												<h4 class="modal-title">Rent</h4>
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
-											</div>
-											<div class="modal-body" style="margin: 2%">
-												{!! Form::open(['route' => 'transactions.store','onsubmit' => 'return validateForm()', 'name' => 'rentForm']) !!}
-												Hours:
-												{{form::text('hours', null,array('class' => 'form-control', 'placeholder' => 'e.g. 4')) }}
-												Day:
-												{{form::select('day',  ['mon'=>'Monday','tue'=>'Tuesday','wed'=>'Wednesday','thu'=>'Thursday','fri'=>'Friday','sat'=>'Saturday','sun'=>'Sunday'], null, array('class' => 'form-control', 'name' => 'day')) }}
-												<input type="hidden" name="ownerID" value={{$cars->owner}}>
-												<input type="hidden" name="carID" value={{$cars->id}}>
-
-												{{Form::submit('Rent', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
-
-												<hr>
-												{!! Form::close() !!}
-											</div>
-										</div> <!-- end modal content-->
-									</div><!--end modal dialog -->
-								</div><!-- end Modal form-->
-							</div> 
+							
 
 
 						</div>

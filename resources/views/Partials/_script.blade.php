@@ -10,7 +10,7 @@ header {
 	z-index: -1;
 
 	display: block;
-	background-image: url('/images/{{rand(2,4)}}.jpg');
+	background-image: url('/images/{{rand(2,3)}}.jpg');
 	width: 100%;
 	height: 100%;
 
