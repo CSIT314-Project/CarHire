@@ -150,7 +150,7 @@ class AddCarController extends Controller
         'odometer' => 'required',
         'transmission' => 'required',
         'carType' => 'required',
-        'rego' => 'required'
+        'rego' => 'required',
       ));
 
       $blacklist = DB::table('rego_black_lists')->get();
@@ -228,7 +228,7 @@ class AddCarController extends Controller
         }
         $cars->create($data); 
 
-        return redirect()->route('garage.index');
+        return redirect()->route('garage.index')->with('status2', 'This car has pass a registration check and been added.');
       }
 
 

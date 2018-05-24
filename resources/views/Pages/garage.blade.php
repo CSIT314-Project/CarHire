@@ -17,6 +17,11 @@
 			{{ session('status') }}
 		</div>
 		@endif
+		@if (session('status2'))
+		<div class="alert alert-success col-md-4 offset-md-4">
+			{{ session('status2') }}
+		</div>
+		@endif
 
 	<div class="col-md-12" style='text-align: right;'>
 		<div class="row" style="text-align: center;">
